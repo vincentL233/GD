@@ -2541,6 +2541,126 @@
         "name": "11.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Feed_bowl 0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl 0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "飼料袋直立.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "飼料袋直立.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "飼料婉傾倒.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "飼料婉傾倒.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "飼料袋直立2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "飼料袋直立2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "飼料婉傾倒2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "飼料婉傾倒2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Feed_bowl5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Feed_bowl5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "任務提示.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "任務提示.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "遊玩介面_任務進度條.06png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "遊玩介面_任務進度條.06png.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4377,7 +4497,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.32169117647058965,
+        "zoomFactor": 0.5653158055126337,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4437,6 +4557,11 @@
       "variables": [
         {
           "name": "counttime",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "state",
           "type": "number",
           "value": 0
         }
@@ -4518,11 +4643,10 @@
           "keepRatio": true,
           "layer": "GamePlay UI",
           "name": "任務完成進度條",
-          "opacity": 0,
           "persistentUuid": "b137d279-3a1e-4107-9985-20489ed61a5e",
           "width": 86,
-          "x": 1746,
-          "y": 392,
+          "x": 211,
+          "y": 416,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -4621,8 +4745,8 @@
           "layer": "GamePlay UI",
           "name": "關卡背景",
           "persistentUuid": "bd82e3fb-62c2-4550-95c3-c5cdd40a7a39",
-          "width": 1915,
-          "x": 3,
+          "width": 1918,
+          "x": 0,
           "y": 2,
           "zOrder": -1,
           "numberProperties": [],
@@ -4633,7 +4757,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 48,
-          "height": 87,
+          "height": 109,
           "keepRatio": true,
           "layer": "GamePlay UI",
           "name": "進度條",
@@ -4673,8 +4797,8 @@
           "name": "進度條上圖",
           "persistentUuid": "b2cc0de2-57a5-4c13-8a73-837915619359",
           "width": 2052,
-          "x": -69,
-          "y": 815,
+          "x": -66,
+          "y": 818,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -4690,9 +4814,9 @@
           "name": "cat",
           "persistentUuid": "3ffb767d-538c-4f5a-975c-54684d02520c",
           "width": 414,
-          "x": 508,
-          "y": 611,
-          "zOrder": 19,
+          "x": 809,
+          "y": 551,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4709,6 +4833,40 @@
           "x": 211,
           "y": 31,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 137,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "feed_bowl",
+          "persistentUuid": "78f22329-c59d-4fea-97e5-8e074d858ea5",
+          "width": 128,
+          "x": 70,
+          "y": 573,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 218,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "Task",
+          "persistentUuid": "9e652d0c-00a5-45cc-96b4-d8b3d410f83a",
+          "width": 207,
+          "x": 189,
+          "y": 386,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11735,6 +11893,398 @@
             "characterSize": 60,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "feed_bowl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "Animation": "Animation",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": ""
+            },
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "feed_boel0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Feed_bowl1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 63,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 964
+                          },
+                          {
+                            "x": 63,
+                            "y": 964
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "feed_boel1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Feed_bowl3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 63,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 964
+                          },
+                          {
+                            "x": 63,
+                            "y": 964
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "feed_boel2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Feed_bowl4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 63,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 964
+                          },
+                          {
+                            "x": 63,
+                            "y": 964
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "feed_boel3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Feed_bowl5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 63,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 273
+                          },
+                          {
+                            "x": 936,
+                            "y": 964
+                          },
+                          {
+                            "x": 63,
+                            "y": 964
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "飼料",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "飼料袋直立.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 250,
+                            "y": 108
+                          },
+                          {
+                            "x": 750,
+                            "y": 108
+                          },
+                          {
+                            "x": 750,
+                            "y": 892
+                          },
+                          {
+                            "x": 250,
+                            "y": 892
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "click",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "飼料婉傾倒2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 250,
+                            "y": 108
+                          },
+                          {
+                            "x": 750,
+                            "y": 108
+                          },
+                          {
+                            "x": 750,
+                            "y": 892
+                          },
+                          {
+                            "x": 250,
+                            "y": 892
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Task",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "任務提示.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 66,
+                            "y": 112
+                          },
+                          {
+                            "x": 435,
+                            "y": 112
+                          },
+                          {
+                            "x": 435,
+                            "y": 405
+                          },
+                          {
+                            "x": 66,
+                            "y": 405
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11762,7 +12312,7 @@
             "objectName": "計時器"
           },
           {
-            "objectName": "任務完成進度條"
+            "objectName": "飼料"
           },
           {
             "objectName": "WoodBlueBar"
@@ -11793,6 +12343,15 @@
           },
           {
             "objectName": "settime"
+          },
+          {
+            "objectName": "feed_bowl"
+          },
+          {
+            "objectName": "任務完成進度條"
+          },
+          {
+            "objectName": "Task"
           }
         ]
       },
@@ -11853,10 +12412,33 @@
                 "30",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "任務完成進度條",
+                "Opacity",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Task",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -12357,6 +12939,454 @@
               "eventsSheetExpanded": true
             }
           ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "feed_bowl",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VariableChildCount"
+                  },
+                  "parameters": [
+                    "state",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "state",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VariableChildCount"
+                  },
+                  "parameters": [
+                    "state",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "state",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VariableChildCount"
+                  },
+                  "parameters": [
+                    "state",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "state",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VariableChildCount"
+                  },
+                  "parameters": [
+                    "state",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "state",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "variables": [
+            {
+              "name": "state",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "// 設置背景顏色",
+            "runtimeScene.setBackgroundColor(100, 100, 240);",
+            "",
+            "// 獲取物件",
+            "const feedBowl = runtimeScene.getObjects(\"feed_bowl\")[0];",
+            "const taskObjects = runtimeScene.getObjects(\"Task\");",
+            "const taskObject = taskObjects.length > 0 ? taskObjects[0] : null;",
+            "const progressBarObjects = runtimeScene.getObjects(\"任務完成進度條\");",
+            "const progressBar = progressBarObjects.length > 0 ? progressBarObjects[0] : null;",
+            "",
+            "if (!feedBowl) return;",
+            "",
+            "// 初始化變數",
+            "if (!runtimeScene.getVariables().has(\"bowlState\")) {",
+            "  runtimeScene.getVariables().get(\"bowlState\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"lastClickTime\").setNumber(0);",
+            "  ",
+            "  // 初始化隨機觸發變數",
+            "  runtimeScene.getVariables().get(\"bowlEventTriggered\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
+            "  ",
+            "  // 生成10-60秒之間的隨機觸發時間",
+            "  const randomTriggerTime = Math.floor(Math.random() * (60 - 10 + 1)) + 10;",
+            "  runtimeScene.getVariables().get(\"bowlRandomTriggerTime\").setNumber(randomTriggerTime);",
+            "  ",
+            "  console.log(\"食物碗事件將在倒數 \" + randomTriggerTime + \" 秒時觸發\");",
+            "  ",
+            "  // 初始時，將Task和進度條物件設為完全透明",
+            "  if (taskObject) {",
+            "    taskObject.setOpacity(0);",
+            "  }",
+            "  if (progressBar) {",
+            "    progressBar.setOpacity(0);",
+            "    // 不使用setAnimationName，改用顯示/隱藏不同進度的物件",
+            "  }",
+            "}",
+            "",
+            "// 獲取當前狀態和數據",
+            "const bowlState = runtimeScene.getVariables().get(\"bowlState\").getAsNumber();",
+            "const lastClickTime = runtimeScene.getVariables().get(\"lastClickTime\").getAsNumber();",
+            "const currentTime = Date.now();",
+            "const counttime = runtimeScene.getVariables().has(\"counttime\") ? ",
+            "                  runtimeScene.getVariables().get(\"counttime\").getAsNumber() : 60;",
+            "const randomTriggerTime = runtimeScene.getVariables().get(\"bowlRandomTriggerTime\").getAsNumber();",
+            "const eventTriggered = runtimeScene.getVariables().get(\"bowlEventTriggered\").getAsNumber();",
+            "const interactionActive = runtimeScene.getVariables().get(\"bowlInteractionActive\").getAsNumber();",
+            "const taskShown = runtimeScene.getVariables().get(\"taskShown\").getAsNumber();",
+            "",
+            "// 檢查是否應該開始食物碗的交互階段",
+            "if (!eventTriggered && counttime <= randomTriggerTime && counttime > 10) {",
+            "  // 標記事件為已觸發",
+            "  runtimeScene.getVariables().get(\"bowlEventTriggered\").setNumber(1);",
+            "  ",
+            "  // 啟動交互階段",
+            "  runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(1);",
+            "  ",
+            "  // 設置交互階段持續時間（例如：10秒）",
+            "  runtimeScene.getVariables().get(\"bowlInteractionEndTime\").setNumber(currentTime + 10000);",
+            "  ",
+            "  // 將Task物件透明度設為255（完全不透明）",
+            "  if (taskObject) {",
+            "    taskObject.setOpacity(255);",
+            "    runtimeScene.getVariables().get(\"taskShown\").setNumber(1);",
+            "    console.log(\"Task物件變為完全可見，透明度設為255\");",
+            "  }",
+            "  ",
+            "  // 進度條初始設為不可見",
+            "  if (progressBar) {",
+            "    progressBar.setOpacity(0);",
+            "    // 不使用setAnimationName",
+            "  }",
+            "  ",
+            "  console.log(\"食物碗在倒數 \" + counttime + \" 秒時開始交互階段\");",
+            "}",
+            "",
+            "// 檢查交互是否應該結束",
+            "if (interactionActive === 1) {",
+            "  const interactionEndTime = runtimeScene.getVariables().get(\"bowlInteractionEndTime\").getAsNumber();",
+            "  ",
+            "  if (currentTime > interactionEndTime) {",
+            "    // 交互時間結束",
+            "    runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
+            "    ",
+            "    // 確保Task物件和進度條設回完全透明",
+            "    if (taskObject) {",
+            "      taskObject.setOpacity(0);",
+            "      runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
+            "    }",
+            "    if (progressBar) {",
+            "      progressBar.setOpacity(0);",
+            "    }",
+            "    ",
+            "    console.log(\"食物碗交互階段結束\");",
+            "  }",
+            "}",
+            "",
+            "// 處理點擊 - 僅當交互階段處於活動狀態時才允許",
+            "const mouseX = runtimeScene.getGame().getInputManager().getMouseX();",
+            "const mouseY = runtimeScene.getGame().getInputManager().getMouseY();",
+            "const isOnObject = feedBowl.isCollidingWithPoint(mouseX, mouseY);",
+            "const isClicked = runtimeScene.getGame().getInputManager().isMouseButtonReleased(0);",
+            "",
+            "if (isOnObject && isClicked && (currentTime - lastClickTime > 300) && interactionActive === 1) {",
+            "  // 更新最後點擊時間",
+            "  runtimeScene.getVariables().get(\"lastClickTime\").setNumber(currentTime);",
+            "  ",
+            "  // 第一次點擊時，隱藏Task物件，顯示進度條",
+            "  if (taskShown === 1) {",
+            "    if (taskObject) {",
+            "      taskObject.setOpacity(0);",
+            "      runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
+            "      console.log(\"首次點擊後Task物件隱藏\");",
+            "    }",
+            "    if (progressBar) {",
+            "      progressBar.setOpacity(255); // 調整透明度為255（完全不透明）",
+            "      // 不使用setAnimationName",
+            "      console.log(\"任務完成進度條顯示，透明度設為255\");",
+            "    }",
+            "  }",
+            "  ",
+            "  // 只有當還沒到最後一個狀態時才繼續",
+            "  if (bowlState < 3) {",
+            "    // 計算下一個狀態 (但不循環)",
+            "    const nextState = bowlState + 1;",
+            "    runtimeScene.getVariables().get(\"bowlState\").setNumber(nextState);",
+            "    ",
+            "    // 根據新狀態設置正確的動畫",
+            "    const animationName = \"feed_boel\" + nextState;",
+            "    feedBowl.setAnimationName(animationName);",
+            "    ",
+            "    // 更新進度條 - 使用變數而非動畫",
+            "    if (progressBar) {",
+            "      // 將進度信息保存在變數中",
+            "      runtimeScene.getVariables().get(\"progressState\").setNumber(nextState);",
+            "      console.log(\"進度更新為：\" + nextState);",
+            "    }",
+            "    ",
+            "    console.log(\"碗狀態變更為: \" + nextState + \", 動畫: \" + animationName);",
+            "    ",
+            "    // 填滿後結束交互階段",
+            "    if (nextState === 3) {",
+            "      // 設定延遲以顯示完成進度",
+            "      runtimeScene.getVariables().get(\"completionTime\").setNumber(currentTime + 1000); // 延遲1秒",
+            "      runtimeScene.getVariables().get(\"taskCompleted\").setNumber(1);",
+            "      console.log(\"任務完成，將在1秒後結束交互階段\");",
+            "    }",
+            "  } else {",
+            "    console.log(\"已達到最大狀態，保持在 feed_boel3\");",
+            "  }",
+            "}",
+            "",
+            "// 處理任務完成後的延遲",
+            "if (runtimeScene.getVariables().has(\"taskCompleted\") && ",
+            "    runtimeScene.getVariables().get(\"taskCompleted\").getAsNumber() === 1) {",
+            "  ",
+            "  const completionTime = runtimeScene.getVariables().get(\"completionTime\").getAsNumber();",
+            "  ",
+            "  if (currentTime > completionTime) {",
+            "    runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
+            "    runtimeScene.getVariables().get(\"taskCompleted\").setNumber(0);",
+            "    ",
+            "    // 隱藏進度條",
+            "    if (progressBar) {",
+            "      progressBar.setOpacity(0);",
+            "    }",
+            "    ",
+            "    console.log(\"食物碗已填滿，交互階段完全結束\");",
+            "  }",
+            "}",
+            "",
+            "// 當計時器重置時，重置事件觸發狀態",
+            "if (counttime >= 60) {",
+            "  runtimeScene.getVariables().get(\"bowlEventTriggered\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
+            "  if (runtimeScene.getVariables().has(\"taskCompleted\")) {",
+            "    runtimeScene.getVariables().get(\"taskCompleted\").setNumber(0);",
+            "  }",
+            "  ",
+            "  // 將Task物件和進度條設回完全透明",
+            "  if (taskObject) {",
+            "    taskObject.setOpacity(0);",
+            "  }",
+            "  if (progressBar) {",
+            "    progressBar.setOpacity(0);",
+            "  }",
+            "  ",
+            "  // 重置食物碗狀態",
+            "  runtimeScene.getVariables().get(\"bowlState\").setNumber(0);",
+            "  if (feedBowl) {",
+            "    feedBowl.setAnimationName(\"feed_boel0\");",
+            "  }",
+            "  ",
+            "  const newRandomTriggerTime = Math.floor(Math.random() * (60 - 10 + 1)) + 10;",
+            "  runtimeScene.getVariables().get(\"bowlRandomTriggerTime\").setNumber(newRandomTriggerTime);",
+            "  console.log(\"重設食物碗隨機事件，下次將在倒數 \" + newRandomTriggerTime + \" 秒時觸發\");",
+            "}",
+            "",
+            "// 根據交互狀態更改食物碗外觀（可選）",
+            "if (interactionActive === 1) {",
+            "  // 當可點擊時的視覺效果",
+            "  feedBowl.setOpacity(255);  // 完全不透明",
+            "} else {",
+            "  // 當不可點擊時的視覺效果",
+            "  feedBowl.setOpacity(150);  // 半透明",
+            "}"
+          ],
+          "parameterObjects": "feed_bowl",
+          "useStrict": true,
+          "eventsSheetExpanded": true
         }
       ],
       "layers": [
@@ -12508,6 +13538,14 @@
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "ButtonAnimationName",
+          "type": "ButtonStates::ButtonAnimationName"
+        },
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
         },
         {
           "name": "Effect",
