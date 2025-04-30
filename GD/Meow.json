@@ -4497,7 +4497,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126337,
+        "zoomFactor": 0.546875000000003,
         "windowMask": false
       },
       "objectsGroups": [
@@ -12285,6 +12285,17 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -12352,6 +12363,9 @@
           },
           {
             "objectName": "Task"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -13208,7 +13222,8 @@
             "  runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
             "  ",
             "  // 生成10-60秒之間的隨機觸發時間",
-            "  const randomTriggerTime = Math.floor(Math.random() * (60 - 10 + 1)) + 10;",
+            "  //const randomTriggerTime = Math.floor(Math.random() * (60 - 10 + 1)) + 10;",
+            "  const randomTriggerTime = 50; // 固定在第10秒觸發 (60-10=50)",
             "  runtimeScene.getVariables().get(\"bowlRandomTriggerTime\").setNumber(randomTriggerTime);",
             "  ",
             "  console.log(\"食物碗事件將在倒數 \" + randomTriggerTime + \" 秒時觸發\");",
@@ -13235,7 +13250,8 @@
             "const taskShown = runtimeScene.getVariables().get(\"taskShown\").getAsNumber();",
             "",
             "// 檢查是否應該開始食物碗的交互階段",
-            "if (!eventTriggered && counttime <= randomTriggerTime && counttime > 10) {",
+            "//if (!eventTriggered && counttime <= randomTriggerTime && counttime > 10) {",
+            "if (!eventTriggered && counttime == 50) { // 精確在第10秒觸發",
             "  // 標記事件為已觸發",
             "  runtimeScene.getVariables().get(\"bowlEventTriggered\").setNumber(1);",
             "  ",
@@ -13292,6 +13308,10 @@
             "  // 更新最後點擊時間",
             "  runtimeScene.getVariables().get(\"lastClickTime\").setNumber(currentTime);",
             "  ",
+            "  // 設置eventCompleted為1，讓進度條重置為100% - 新增部分",
+            "  runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
+            "  console.log(\"觸發點擊事件，設置eventCompleted=1\");",
+            "  ",
             "  // 第一次點擊時，隱藏Task物件，顯示進度條",
             "  if (taskShown === 1) {",
             "    if (taskObject) {",
@@ -13330,6 +13350,11 @@
             "      // 設定延遲以顯示完成進度",
             "      runtimeScene.getVariables().get(\"completionTime\").setNumber(currentTime + 1000); // 延遲1秒",
             "      runtimeScene.getVariables().get(\"taskCompleted\").setNumber(1);",
+            "      ",
+            "      // 再次設置eventCompleted為1，確保任務完成時進度條也會重置 - 新增部分",
+            "      runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
+            "      console.log(\"任務完成，設置eventCompleted=1\");",
+            "      ",
             "      console.log(\"任務完成，將在1秒後結束交互階段\");",
             "    }",
             "  } else {",
@@ -13351,6 +13376,10 @@
             "    if (progressBar) {",
             "      progressBar.setOpacity(0);",
             "    }",
+            "    ",
+            "    // 最後一次設置eventCompleted為1，確保整個任務完成後進度條會重置 - 新增部分",
+            "    runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
+            "    console.log(\"任務完全結束，設置eventCompleted=1\");",
             "    ",
             "    console.log(\"食物碗已填滿，交互階段完全結束\");",
             "  }",
@@ -13395,17 +13424,19 @@
           ],
           "parameterObjects": "feed_bowl",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
@@ -13418,27 +13449,48 @@
             "  // 獲取遊戲視窗寬度",
             "  const gameWidth = runtimeScene.getGame().getGameResolutionWidth();",
             "  ",
-            "  // 初始化進度值追蹤變數（如果尚未初始化）",
+            "  // 初始化進度值追蹤變數和上次更新時間（如果尚未初始化）",
             "  if (!runtimeScene.getVariables().has(\"progressCurrentValue\")) {",
             "    runtimeScene.getVariables().get(\"progressCurrentValue\").setNumber(100);",
+            "    runtimeScene.getVariables().get(\"lastProgressUpdateTime\").setNumber(Date.now());",
             "    ",
             "    // 保存進度條的最大寬度（例如：遊戲寬度的80%或其他合適的比例）",
             "    const maxProgressWidth = gameWidth * 0.8; // 可以調整這個比例",
             "    runtimeScene.getVariables().get(\"progressMaxWidth\").setNumber(maxProgressWidth);",
-            "    ",
             "    console.log(\"遊戲寬度: \" + gameWidth + \"px, 進度條最大寬度: \" + maxProgressWidth + \"px\");",
+            "  }",
+            "  ",
+            "  // 檢查是否有事件完成標記",
+            "  if (runtimeScene.getVariables().has(\"eventCompleted\") && ",
+            "      runtimeScene.getVariables().get(\"eventCompleted\").getAsNumber() === 1) {",
+            "    ",
+            "    // 重置進度條為滿值",
+            "    runtimeScene.getVariables().get(\"progressCurrentValue\").setNumber(100);",
+            "    runtimeScene.getVariables().get(\"lastProgressUpdateTime\").setNumber(Date.now());",
+            "    console.log(\"事件完成，進度條重置為100%\");",
+            "    ",
+            "    // 重置事件完成標記",
+            "    runtimeScene.getVariables().get(\"eventCompleted\").setNumber(0);",
             "  }",
             "  ",
             "  // 獲取進度條最大寬度和當前進度值",
             "  const maxWidth = runtimeScene.getVariables().get(\"progressMaxWidth\").getAsNumber();",
             "  const currentValue = runtimeScene.getVariables().get(\"progressCurrentValue\").getAsNumber();",
             "  ",
-            "  // 計算新的進度值（每秒減少5%）",
-            "  const timeDelta = runtimeScene.getElapsedTime() / 1000;",
-            "  const newValue = Math.max(0, currentValue - (5 * timeDelta));",
+            "  // 使用 Date.now() 而非 runtimeScene.getElapsedTime() 來計算時間差",
+            "  const currentTime = Date.now();",
+            "  const lastUpdateTime = runtimeScene.getVariables().get(\"lastProgressUpdateTime\").getAsNumber();",
+            "  const elapsedTimeInSeconds = (currentTime - lastUpdateTime) / 1000;",
             "  ",
-            "  // 更新進度值",
+            "  // 限制單次時間差，防止大幅度下降",
+            "  const limitedTimeDelta = Math.min(elapsedTimeInSeconds, 0.1);",
+            "  ",
+            "  // 計算新的進度值（每秒減少5%）",
+            "  const newValue = Math.max(0, currentValue - (5 * limitedTimeDelta));",
+            "  ",
+            "  // 更新進度值和最後更新時間",
             "  runtimeScene.getVariables().get(\"progressCurrentValue\").setNumber(newValue);",
+            "  runtimeScene.getVariables().get(\"lastProgressUpdateTime\").setNumber(currentTime);",
             "  ",
             "  // 根據進度值計算新寬度",
             "  const newWidth = (newValue / 100) * maxWidth;",
@@ -13472,11 +13524,9 @@
             "    // 重新計算並應用當前寬度",
             "    const currentValue = runtimeScene.getVariables().get(\"progressCurrentValue\").getAsNumber();",
             "    const newWidth = (currentValue / 100) * newMaxWidth;",
-            "    ",
             "    if (progressBar) {",
             "      progressBar.setWidth(newWidth);",
             "    }",
-            "    ",
             "    console.log(\"遊戲視窗大小變化! 新寬度: \" + currentWidth + \"px, 進度條最大寬度: \" + newMaxWidth + \"px\");",
             "  }",
             "  ",
@@ -13490,6 +13540,11 @@
           "parameterObjects": "進度條",
           "useStrict": true,
           "eventsSheetExpanded": true
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
