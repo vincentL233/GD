@@ -3243,8 +3243,8 @@
             "  const word = meows[Math.floor(Math.random() * meows.length)];",
             "  const obj = runtimeScene.createObject(\"FloatingMeow\");",
             "  if (obj !== null) {",
-            "    const x = Math.floor(Math.random() * 1281);",
-            "    const y = Math.floor(Math.random() * 720) + 1;",
+            "    const x = Math.floor(Math.random() * 1920);",
+            "    const y = Math.floor(Math.random() * 1080) + 1;",
             "    obj.setPosition(x, y);",
             "    obj.setOpacity(0);",
             "    obj.setString(word);",
@@ -3279,7 +3279,7 @@
           ],
           "parameterObjects": "FloatingMeow",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -12774,7 +12774,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -12792,7 +12791,7 @@
                 "if (!vars.has(\"tick\")) vars.get(\"tick\").setNumber(new Date().getTime());",
                 "if (!vars.has(\"pause\")) vars.get(\"pause\").setNumber(0);",
                 "if (!vars.has(\"sleeping\")) vars.get(\"sleeping\").setNumber(0); ",
-                "if (!vars.has(\"moveTime\")) vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000); // 2-5秒隨機移動時間",
+                "if (!vars.has(\"moveTime\")) vars.get(\"moveTie\").setNumber(Math.random() * 3000 + 2000); // 2-5秒隨機移動時間",
                 "if (!vars.has(\"movePattern\")) vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3)); // 0=直線, 1=曲線, 2=隨機曲線",
                 "if (!vars.has(\"curveAngle\")) vars.get(\"curveAngle\").setNumber(0); // 用於曲線移動的角度",
                 "if (!vars.has(\"targetX\")) vars.get(\"targetX\").setNumber(cat.getX() + Math.random() * 200 - 100);",
@@ -13424,7 +13423,7 @@
           ],
           "parameterObjects": "feed_bowl",
           "useStrict": true,
-          "eventsSheetExpanded": true
+          "eventsSheetExpanded": false
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -13539,7 +13538,7 @@
           ],
           "parameterObjects": "進度條",
           "useStrict": true,
-          "eventsSheetExpanded": true
+          "eventsSheetExpanded": false
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
