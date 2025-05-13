@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 228,
+    "build": 230,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2661,6 +2661,150 @@
         "name": "遊玩介面_任務進度條.06png.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "1_工作區域3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1_工作區域3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2_工作區域2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2_工作區域2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3_工作區域2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3_工作區域2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4_工作區域2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4_工作區域2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5_工作區域2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5_工作區域2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2_工作區域3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2_工作區域3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3_工作區域3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3_工作區域3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4_工作區域3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4_工作區域3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5_工作區域3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5_工作區域3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jason_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jason_walk_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jason_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jason_walk_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jason_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jason_walk_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jason_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jason_walk_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jason_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jason_walk_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "傑森-側1_工作區域 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "傑森-側1_工作區域 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "傑森-側3_工作區域 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "傑森-側3_工作區域 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jason_idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jason_idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Jason_idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jason_idle_2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2718,6 +2862,7 @@
       "assetStoreId": "",
       "name": "NewButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -2795,6 +2940,7 @@
       "assetStoreId": "",
       "name": "NewButton2",
       "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -2872,6 +3018,7 @@
       "assetStoreId": "",
       "name": "NewButton3",
       "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -2949,6 +3096,7 @@
       "assetStoreId": "",
       "name": "NewButton4",
       "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "",
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -3168,6 +3316,7 @@
           "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
           "name": "直接開始",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -3252,6 +3401,7 @@
           "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
           "name": "關卡選擇",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -3336,6 +3486,7 @@
           "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
           "name": "退出",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -4052,6 +4203,7 @@
           "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
           "name": "退出",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -4877,6 +5029,7 @@
           "assetStoreId": "",
           "name": "返回紐",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -5015,6 +5168,7 @@
           "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
           "name": "進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -5593,6 +5747,7 @@
           "assetStoreId": "",
           "name": "任務完成進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -5974,6 +6129,7 @@
           "assetStoreId": "",
           "name": "下一關按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -6051,6 +6207,7 @@
           "assetStoreId": "",
           "name": "退出按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -6260,6 +6417,7 @@
           "assetStoreId": "",
           "name": "重新來過按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -6337,6 +6495,7 @@
           "assetStoreId": "ebc9bc64e9525d8e827938e246f37b4398590f18a3444735dc50edbea0317f03",
           "name": "WoodBlueBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -6422,6 +6581,7 @@
           "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
           "name": "RedFlatBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -13758,7 +13918,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875000000003,
+        "zoomFactor": 0.47893418845352737,
         "windowMask": false
       },
       "objectsGroups": [
@@ -13906,8 +14066,8 @@
           "name": "任務完成進度條",
           "persistentUuid": "b137d279-3a1e-4107-9985-20489ed61a5e",
           "width": 86,
-          "x": 211,
-          "y": 416,
+          "x": 171,
+          "y": 403,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -14052,14 +14212,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 277,
+          "height": 404,
           "keepRatio": true,
           "layer": "Layer",
           "name": "cat",
           "persistentUuid": "3ffb767d-538c-4f5a-975c-54684d02520c",
-          "width": 414,
-          "x": 809,
-          "y": 551,
+          "width": 590,
+          "x": 806,
+          "y": 575,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -14085,14 +14245,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 137,
+          "height": 130,
           "keepRatio": true,
           "layer": "Layer",
           "name": "feed_bowl",
           "persistentUuid": "78f22329-c59d-4fea-97e5-8e074d858ea5",
-          "width": 128,
-          "x": 70,
-          "y": 573,
+          "width": 157,
+          "x": 68,
+          "y": 687,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -14108,8 +14268,8 @@
           "name": "Task",
           "persistentUuid": "9e652d0c-00a5-45cc-96b4-d8b3d410f83a",
           "width": 207,
-          "x": 189,
-          "y": 386,
+          "x": 109,
+          "y": 397,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -14131,6 +14291,56 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "傑森",
+          "persistentUuid": "1db44754-552f-46ac-acfd-be71b708d83d",
+          "width": 0,
+          "x": 2085,
+          "y": 1102,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 765,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "傑森",
+          "persistentUuid": "d75e021e-80a1-4831-98dc-b57f0a24aa7c",
+          "width": 309,
+          "x": 1012,
+          "y": 127,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 185,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "飼料",
+          "persistentUuid": "ea4a6e59-367f-44b3-9717-677646e7b973",
+          "width": 213,
+          "x": 180,
+          "y": 611,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14138,6 +14348,7 @@
           "assetStoreId": "",
           "name": "返回紐",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -14276,6 +14487,7 @@
           "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
           "name": "進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -14854,6 +15066,7 @@
           "assetStoreId": "",
           "name": "任務完成進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -15235,6 +15448,7 @@
           "assetStoreId": "",
           "name": "下一關按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -15312,6 +15526,7 @@
           "assetStoreId": "",
           "name": "退出按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -15521,6 +15736,7 @@
           "assetStoreId": "",
           "name": "重新來過按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -15598,6 +15814,7 @@
           "assetStoreId": "ebc9bc64e9525d8e827938e246f37b4398590f18a3444735dc50edbea0317f03",
           "name": "WoodBlueBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -15683,6 +15900,7 @@
           "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
           "name": "RedFlatBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -21546,6 +21764,269 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "傑森",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.3333333333333333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jason_idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 1550
+                          },
+                          {
+                            "x": 81,
+                            "y": 1550
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jason_walk_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 1550
+                          },
+                          {
+                            "x": 81,
+                            "y": 1550
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jason_walk_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 1550
+                          },
+                          {
+                            "x": 81,
+                            "y": 1550
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jason_walk_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 1550
+                          },
+                          {
+                            "x": 81,
+                            "y": 1550
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jason_walk_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 1550
+                          },
+                          {
+                            "x": 81,
+                            "y": 1550
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Jason_walk_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 81,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 79
+                          },
+                          {
+                            "x": 536,
+                            "y": 1550
+                          },
+                          {
+                            "x": 81,
+                            "y": 1550
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -21597,6 +22078,9 @@
             "objectName": "分數"
           },
           {
+            "objectName": "傑森"
+          },
+          {
             "objectName": "RedFlatBar"
           },
           {
@@ -21613,6 +22097,9 @@
           },
           {
             "objectName": "Task"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -21840,6 +22327,7 @@
         },
         {
           "disabled": true,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -22021,6 +22509,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -22670,7 +23159,7 @@
           ],
           "parameterObjects": "feed_bowl",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23385,6 +23874,7 @@
           "assetStoreId": "",
           "name": "返回紐",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -23523,6 +24013,7 @@
           "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
           "name": "進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -24101,6 +24592,7 @@
           "assetStoreId": "",
           "name": "任務完成進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -24482,6 +24974,7 @@
           "assetStoreId": "",
           "name": "下一關按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -24559,6 +25052,7 @@
           "assetStoreId": "",
           "name": "退出按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -24768,6 +25262,7 @@
           "assetStoreId": "",
           "name": "重新來過按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -24845,6 +25340,7 @@
           "assetStoreId": "ebc9bc64e9525d8e827938e246f37b4398590f18a3444735dc50edbea0317f03",
           "name": "WoodBlueBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -24930,6 +25426,7 @@
           "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
           "name": "RedFlatBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -32646,6 +33143,7 @@
           "assetStoreId": "",
           "name": "返回紐",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -32784,6 +33282,7 @@
           "assetStoreId": "5c37cb58ddc519829264b5ff95dd80416c82e89b60bfa67c6c3852154ec2b632",
           "name": "進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -33362,6 +33861,7 @@
           "assetStoreId": "",
           "name": "任務完成進度條",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -33743,6 +34243,7 @@
           "assetStoreId": "",
           "name": "下一關按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -33820,6 +34321,7 @@
           "assetStoreId": "",
           "name": "退出按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -34029,6 +34531,7 @@
           "assetStoreId": "",
           "name": "重新來過按鈕",
           "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -34106,6 +34609,7 @@
           "assetStoreId": "ebc9bc64e9525d8e827938e246f37b4398590f18a3444735dc50edbea0317f03",
           "name": "WoodBlueBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -34191,6 +34695,7 @@
           "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
           "name": "RedFlatBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "",
           "variables": [],
           "effects": [],
           "behaviors": [],
@@ -42708,6 +43213,165 @@
           "fullName": "Button (panel sprite)",
           "isUsingLegacyInstancesRenderer": true,
           "name": "PanelSpriteButton",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "bold": false,
+              "italic": false,
+              "name": "Label",
+              "smoothed": true,
+              "type": "TextObject::Text",
+              "underlined": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "string": "Text",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Text",
+                "font": "",
+                "textAlignment": "",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Idle",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [
+                {
+                  "folded": true,
+                  "name": "State",
+                  "type": "string",
+                  "value": "Idle"
+                }
+              ],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ButtonFSM",
+                  "type": "PanelSpriteButton::ButtonFSM",
+                  "ShouldCheckHovering": true
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Hovered",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Tween",
+                  "type": "Tween::TweenBehavior"
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Pressed",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": false,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": []
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "Idle"
+              },
+              {
+                "objectName": "Hovered"
+              },
+              {
+                "objectName": "Pressed"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [],
           "eventsFunctions": [
             {
               "fullName": "",
@@ -44060,165 +44724,7 @@
               "name": "HoveredFadeOutDuration"
             }
           ],
-          "objects": [
-            {
-              "assetStoreId": "",
-              "bold": false,
-              "italic": false,
-              "name": "Label",
-              "smoothed": true,
-              "type": "TextObject::Text",
-              "underlined": false,
-              "variables": [],
-              "effects": [],
-              "behaviors": [],
-              "string": "Text",
-              "font": "",
-              "textAlignment": "",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Text",
-                "font": "",
-                "textAlignment": "",
-                "verticalTextAlignment": "top",
-                "characterSize": 20,
-                "color": "0;0;0"
-              }
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "Idle",
-              "rightMargin": 0,
-              "texture": "",
-              "tiled": false,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [
-                {
-                  "folded": true,
-                  "name": "State",
-                  "type": "string",
-                  "value": "Idle"
-                }
-              ],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "ButtonFSM",
-                  "type": "PanelSpriteButton::ButtonFSM",
-                  "ShouldCheckHovering": true
-                }
-              ]
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "Hovered",
-              "rightMargin": 0,
-              "texture": "",
-              "tiled": false,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "Tween",
-                  "type": "Tween::TweenBehavior"
-                }
-              ]
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "Pressed",
-              "rightMargin": 0,
-              "texture": "",
-              "tiled": false,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": []
-            }
-          ],
-          "objectsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "objectName": "Label"
-              },
-              {
-                "objectName": "Idle"
-              },
-              {
-                "objectName": "Hovered"
-              },
-              {
-                "objectName": "Pressed"
-              }
-            ]
-          },
-          "objectsGroups": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ],
-          "instances": []
+          "variants": []
         }
       ]
     },
@@ -44917,6 +45423,100 @@
           "fullName": "Resource bar (separated units)",
           "isUsingLegacyInstancesRenderer": true,
           "name": "TiledUnitsBar",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "height": 32,
+              "name": "FillBar",
+              "texture": "",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ResourceBar",
+                  "type": "TiledUnitsBar::ResourceBar",
+                  "Value": 1,
+                  "MaxValue": 3,
+                  "PreviousValue": 0
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "height": 32,
+              "name": "Bar",
+              "texture": "",
+              "type": "TiledSpriteObject::TiledSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": []
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Background",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": true,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": []
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Bar"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [],
           "eventsFunctions": [
             {
               "fullName": "",
@@ -45816,100 +46416,7 @@
               "name": "BarVerticalAnchorTarget"
             }
           ],
-          "objects": [
-            {
-              "assetStoreId": "",
-              "height": 32,
-              "name": "FillBar",
-              "texture": "",
-              "type": "TiledSpriteObject::TiledSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "ResourceBar",
-                  "type": "TiledUnitsBar::ResourceBar",
-                  "Value": 1,
-                  "MaxValue": 3,
-                  "PreviousValue": 0
-                }
-              ]
-            },
-            {
-              "assetStoreId": "",
-              "height": 32,
-              "name": "Bar",
-              "texture": "",
-              "type": "TiledSpriteObject::TiledSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": []
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "Background",
-              "rightMargin": 0,
-              "texture": "",
-              "tiled": true,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": []
-            }
-          ],
-          "objectsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "objectName": "FillBar"
-              },
-              {
-                "objectName": "Bar"
-              },
-              {
-                "objectName": "Background"
-              }
-            ]
-          },
-          "objectsGroups": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ],
-          "instances": []
+          "variants": []
         }
       ]
     },
@@ -46607,6 +47114,165 @@
           "fullName": "Resource bar (continuous)",
           "isUsingLegacyInstancesRenderer": true,
           "name": "PanelSpriteContinuousBar",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "bold": false,
+              "italic": false,
+              "name": "Label",
+              "smoothed": true,
+              "type": "TextObject::Text",
+              "underlined": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "string": "2 / 3",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 20,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "2 / 3",
+                "font": "",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 20,
+                "color": "0;0;0"
+              }
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "FillBar",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": true,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ResourceBar",
+                  "type": "PanelSpriteContinuousBar::ResourceBar",
+                  "Value": 1,
+                  "MaxValue": 3,
+                  "PreviousValue": 0,
+                  "CurrentValue": 1
+                },
+                {
+                  "name": "Tween",
+                  "type": "Tween::TweenBehavior"
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Buffer",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": true,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Tween",
+                  "type": "Tween::TweenBehavior"
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 0,
+              "height": 32,
+              "leftMargin": 0,
+              "name": "Background",
+              "rightMargin": 0,
+              "texture": "",
+              "tiled": true,
+              "topMargin": 0,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 32,
+              "variables": [],
+              "effects": [],
+              "behaviors": []
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Buffer"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [],
           "eventsFunctions": [
             {
               "fullName": "",
@@ -48355,165 +49021,7 @@
               "name": "LabelVerticalAnchorTarget"
             }
           ],
-          "objects": [
-            {
-              "assetStoreId": "",
-              "bold": false,
-              "italic": false,
-              "name": "Label",
-              "smoothed": true,
-              "type": "TextObject::Text",
-              "underlined": false,
-              "variables": [],
-              "effects": [],
-              "behaviors": [],
-              "string": "2 / 3",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "2 / 3",
-                "font": "",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 20,
-                "color": "0;0;0"
-              }
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "FillBar",
-              "rightMargin": 0,
-              "texture": "",
-              "tiled": true,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "ResourceBar",
-                  "type": "PanelSpriteContinuousBar::ResourceBar",
-                  "Value": 1,
-                  "MaxValue": 3,
-                  "PreviousValue": 0,
-                  "CurrentValue": 1
-                },
-                {
-                  "name": "Tween",
-                  "type": "Tween::TweenBehavior"
-                }
-              ]
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "Buffer",
-              "rightMargin": 0,
-              "texture": "",
-              "tiled": true,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "Tween",
-                  "type": "Tween::TweenBehavior"
-                }
-              ]
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "name": "Background",
-              "rightMargin": 0,
-              "texture": "",
-              "tiled": true,
-              "topMargin": 0,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 32,
-              "variables": [],
-              "effects": [],
-              "behaviors": []
-            }
-          ],
-          "objectsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "objectName": "Label"
-              },
-              {
-                "objectName": "FillBar"
-              },
-              {
-                "objectName": "Buffer"
-              },
-              {
-                "objectName": "Background"
-              }
-            ]
-          },
-          "objectsGroups": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ],
-          "instances": []
+          "variants": []
         }
       ]
     },
@@ -61874,6 +62382,344 @@
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "StarRatingBar",
+          "objects": [
+            {
+              "adaptCollisionMaskAutomatically": false,
+              "assetStoreId": "367a58ff120bef6532ea832ff97bb32fdbca604c7f08ab43a54fad9f667b9156",
+              "name": "Star",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 0
+                }
+              ],
+              "effects": [
+                {
+                  "effectType": "Outline",
+                  "name": "Effect",
+                  "doubleParameters": {
+                    "padding": 0,
+                    "thickness": 4
+                  },
+                  "stringParameters": {
+                    "color": "0;0;0"
+                  },
+                  "booleanParameters": {}
+                }
+              ],
+              "behaviors": [
+                {
+                  "isFolded": true,
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 4,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 0,
+                  "topEdgeAnchor": 4,
+                  "useLegacyBottomAndRightAnchors": false
+                },
+                {
+                  "name": "ShakeObject_PositionAngleScale",
+                  "type": "StarRatingBar::ShakeObject_PositionAngleScale",
+                  "Scale": "Scale",
+                  "Property": 7.081819056384756e-306
+                }
+              ],
+              "animations": [
+                {
+                  "name": "Enabled",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": true,
+                      "timeBetweenFrames": 0.025,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "Star Gold.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 23,
+                            "y": 23
+                          },
+                          "centerPoint": {
+                            "automatic": false,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Disabled",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "Star Gold Disabled.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 23,
+                            "y": 23
+                          },
+                          "centerPoint": {
+                            "automatic": false,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 30,
+              "height": 64,
+              "leftMargin": 30,
+              "name": "Background",
+              "rightMargin": 30,
+              "texture": "Background.png",
+              "tiled": true,
+              "topMargin": 30,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 64,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 1,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ]
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Star"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "33104734-7e97-4243-a199-3470acd804d6",
+              "width": 53,
+              "x": 246,
+              "y": 27,
+              "zOrder": 6,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 60,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Background",
+              "persistentUuid": "da4cddda-c06e-46b3-a344-5620b1696bd5",
+              "width": 278,
+              "x": 0,
+              "y": 0,
+              "zOrder": 0,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "eb2b23a4-9565-461a-871a-2bfa67cee2b3",
+              "width": 53,
+              "x": 34,
+              "y": 27,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "18c41682-ab13-44d2-b4db-02cdcd6ce43b",
+              "width": 53,
+              "x": 193,
+              "y": 27,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "f3d59f8f-4bc2-40b4-890b-04377b939ab5",
+              "width": 53,
+              "x": 140,
+              "y": 27,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "1b66ed48-034b-4760-9409-c3d7938bdbae",
+              "width": 53,
+              "x": 87,
+              "y": 27,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 2
+                }
+              ]
+            }
+          ],
           "eventsFunctions": [
             {
               "fullName": "",
@@ -62694,344 +63540,7 @@
               "name": "Disabled"
             }
           ],
-          "objects": [
-            {
-              "adaptCollisionMaskAutomatically": false,
-              "assetStoreId": "367a58ff120bef6532ea832ff97bb32fdbca604c7f08ab43a54fad9f667b9156",
-              "name": "Star",
-              "type": "Sprite",
-              "updateIfNotVisible": false,
-              "variables": [
-                {
-                  "name": "ID",
-                  "type": "number",
-                  "value": 0
-                }
-              ],
-              "effects": [
-                {
-                  "effectType": "Outline",
-                  "name": "Effect",
-                  "doubleParameters": {
-                    "padding": 0,
-                    "thickness": 4
-                  },
-                  "stringParameters": {
-                    "color": "0;0;0"
-                  },
-                  "booleanParameters": {}
-                }
-              ],
-              "behaviors": [
-                {
-                  "isFolded": true,
-                  "name": "Anchor",
-                  "type": "AnchorBehavior::AnchorBehavior",
-                  "bottomEdgeAnchor": 4,
-                  "leftEdgeAnchor": 1,
-                  "relativeToOriginalWindowSize": true,
-                  "rightEdgeAnchor": 0,
-                  "topEdgeAnchor": 4,
-                  "useLegacyBottomAndRightAnchors": false
-                },
-                {
-                  "name": "ShakeObject_PositionAngleScale",
-                  "type": "StarRatingBar::ShakeObject_PositionAngleScale",
-                  "Scale": "Scale",
-                  "Property": 7.081819056384756e-306
-                }
-              ],
-              "animations": [
-                {
-                  "name": "Enabled",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": true,
-                      "timeBetweenFrames": 0.025,
-                      "sprites": [
-                        {
-                          "hasCustomCollisionMask": false,
-                          "image": "Star Gold.png",
-                          "points": [],
-                          "originPoint": {
-                            "name": "origine",
-                            "x": 23,
-                            "y": 23
-                          },
-                          "centerPoint": {
-                            "automatic": false,
-                            "name": "centre",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "customCollisionMask": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "name": "Disabled",
-                  "useMultipleDirections": false,
-                  "directions": [
-                    {
-                      "looping": false,
-                      "metadata": "{\"pskl\":{}}",
-                      "timeBetweenFrames": 0.08,
-                      "sprites": [
-                        {
-                          "hasCustomCollisionMask": false,
-                          "image": "Star Gold Disabled.png",
-                          "points": [],
-                          "originPoint": {
-                            "name": "origine",
-                            "x": 23,
-                            "y": 23
-                          },
-                          "centerPoint": {
-                            "automatic": false,
-                            "name": "centre",
-                            "x": 0,
-                            "y": 0
-                          },
-                          "customCollisionMask": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "assetStoreId": "",
-              "bottomMargin": 30,
-              "height": 64,
-              "leftMargin": 30,
-              "name": "Background",
-              "rightMargin": 30,
-              "texture": "Background.png",
-              "tiled": true,
-              "topMargin": 30,
-              "type": "PanelSpriteObject::PanelSprite",
-              "width": 64,
-              "variables": [],
-              "effects": [],
-              "behaviors": [
-                {
-                  "name": "Anchor",
-                  "type": "AnchorBehavior::AnchorBehavior",
-                  "bottomEdgeAnchor": 2,
-                  "leftEdgeAnchor": 1,
-                  "relativeToOriginalWindowSize": true,
-                  "rightEdgeAnchor": 2,
-                  "topEdgeAnchor": 1,
-                  "useLegacyBottomAndRightAnchors": false
-                }
-              ]
-            }
-          ],
-          "objectsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "objectName": "Star"
-              },
-              {
-                "objectName": "Background"
-              }
-            ]
-          },
-          "objectsGroups": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ],
-          "instances": [
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 1,
-              "height": 53,
-              "keepRatio": true,
-              "layer": "",
-              "name": "Star",
-              "persistentUuid": "33104734-7e97-4243-a199-3470acd804d6",
-              "width": 53,
-              "x": 246,
-              "y": 27,
-              "zOrder": 6,
-              "numberProperties": [
-                {
-                  "name": "animation",
-                  "value": 0
-                }
-              ],
-              "stringProperties": [],
-              "initialVariables": [
-                {
-                  "name": "ID",
-                  "type": "number",
-                  "value": 5
-                }
-              ]
-            },
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 1,
-              "height": 60,
-              "keepRatio": true,
-              "layer": "",
-              "name": "Background",
-              "persistentUuid": "da4cddda-c06e-46b3-a344-5620b1696bd5",
-              "width": 278,
-              "x": 0,
-              "y": 0,
-              "zOrder": 0,
-              "numberProperties": [],
-              "stringProperties": [],
-              "initialVariables": []
-            },
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 1,
-              "height": 53,
-              "keepRatio": true,
-              "layer": "",
-              "name": "Star",
-              "persistentUuid": "eb2b23a4-9565-461a-871a-2bfa67cee2b3",
-              "width": 53,
-              "x": 34,
-              "y": 27,
-              "zOrder": 3,
-              "numberProperties": [
-                {
-                  "name": "animation",
-                  "value": 0
-                }
-              ],
-              "stringProperties": [],
-              "initialVariables": [
-                {
-                  "name": "ID",
-                  "type": "number",
-                  "value": 1
-                }
-              ]
-            },
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 1,
-              "height": 53,
-              "keepRatio": true,
-              "layer": "",
-              "name": "Star",
-              "persistentUuid": "18c41682-ab13-44d2-b4db-02cdcd6ce43b",
-              "width": 53,
-              "x": 193,
-              "y": 27,
-              "zOrder": 3,
-              "numberProperties": [
-                {
-                  "name": "animation",
-                  "value": 0
-                }
-              ],
-              "stringProperties": [],
-              "initialVariables": [
-                {
-                  "name": "ID",
-                  "type": "number",
-                  "value": 4
-                }
-              ]
-            },
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 1,
-              "height": 53,
-              "keepRatio": true,
-              "layer": "",
-              "name": "Star",
-              "persistentUuid": "f3d59f8f-4bc2-40b4-890b-04377b939ab5",
-              "width": 53,
-              "x": 140,
-              "y": 27,
-              "zOrder": 3,
-              "numberProperties": [
-                {
-                  "name": "animation",
-                  "value": 0
-                }
-              ],
-              "stringProperties": [],
-              "initialVariables": [
-                {
-                  "name": "ID",
-                  "type": "number",
-                  "value": 3
-                }
-              ]
-            },
-            {
-              "angle": 0,
-              "customSize": true,
-              "depth": 1,
-              "height": 53,
-              "keepRatio": true,
-              "layer": "",
-              "name": "Star",
-              "persistentUuid": "1b66ed48-034b-4760-9409-c3d7938bdbae",
-              "width": 53,
-              "x": 87,
-              "y": 27,
-              "zOrder": 3,
-              "numberProperties": [
-                {
-                  "name": "animation",
-                  "value": 0
-                }
-              ],
-              "stringProperties": [],
-              "initialVariables": [
-                {
-                  "name": "ID",
-                  "type": "number",
-                  "value": 2
-                }
-              ]
-            }
-          ]
+          "variants": []
         }
       ]
     },
