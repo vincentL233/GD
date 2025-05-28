@@ -2981,6 +2981,188 @@
         "name": "cat_litter.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "遊玩介面_任務進度條07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "遊玩介面_任務進度條07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "遊玩介面_任務進度條08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "遊玩介面_任務進度條08.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "遊玩介面_任務進度條09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "遊玩介面_任務進度條09.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "遊玩介面_任務進度條010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "遊玩介面_任務進度條010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "遊玩介面_任務進度條.06png2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "遊玩介面_任務進度條.06png2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "遊玩介面_任務進度條011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "遊玩介面_任務進度條011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "03.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Transparent Button With White Yellow Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/09c5d56e61a6a8b031a30ff89ae4229243317908385b5701a46e458c2fd6906c_Transparent Button With White Yellow Border_Hovered.png",
+          "name": "Transparent Button With White Yellow Border_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Transparent Button With White Yellow Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Yellow Border_Idle.png",
+          "name": "Transparent Button With White Yellow Border_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Transparent Button With White Yellow Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e00d068010472f362dc46547bd727f20d85163a88cd2414d7f4fb9df63db2917_Transparent Button With White Yellow Border_Pressed.png",
+          "name": "Transparent Button With White Yellow Border_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Charm-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Charm-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
+          "name": "Charm-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/Floating Out Button Dark Blue_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/2f8919c3cad70134ff1732dbaef5dd9babd0aed0240dd817c1db9e27aa6b205b_Floating Out Button Dark Blue_Hovered.png",
+          "name": "Floating Out Button Dark Blue_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Floating Out Button Dark Blue_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d2cedf36d5812262daf2389108558a2ee0b40ca23da05f6200e1f0eee905ca11_Floating Out Button Dark Blue_Idle.png",
+          "name": "Floating Out Button Dark Blue_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Floating Out Button Dark Blue_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d246e92fe474d2825e38af207a9926794d490bc052aef447688612f61ec48861_Floating Out Button Dark Blue_Pressed.png",
+          "name": "Floating Out Button Dark Blue_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CarterOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CarterOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+          "name": "CarterOne-Regular.ttf"
+        }
       }
     ],
     "resourceFolders": []
@@ -3283,7 +3465,7 @@
           "height": 97,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\工作區域 13.png",
+          "texture": "",
           "tiled": false,
           "topMargin": 0,
           "width": 343
@@ -3293,7 +3475,7 @@
           "height": 102,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\工作區域 13.png",
+          "texture": "",
           "tiled": false,
           "topMargin": 0,
           "width": 348
@@ -3303,7 +3485,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "",
+          "string": "遊戲圖解",
           "font": "",
           "textAlignment": "",
           "characterSize": 20,
@@ -3326,7 +3508,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "",
+            "text": "遊戲圖解",
             "font": "",
             "textAlignment": "",
             "verticalTextAlignment": "top",
@@ -3339,12 +3521,216 @@
           "height": 102,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "assets\\工作區域 13.png",
+          "texture": "",
           "tiled": false,
           "topMargin": 0,
           "width": 348
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ack",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "01.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 804,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 4040
+                      },
+                      {
+                        "x": 804,
+                        "y": 4040
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "02.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 804,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 4040
+                      },
+                      {
+                        "x": 804,
+                        "y": 4040
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "03.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 804,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 4040
+                      },
+                      {
+                        "x": 804,
+                        "y": 4040
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 804,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 4040
+                      },
+                      {
+                        "x": 804,
+                        "y": 4040
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 804,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 461
+                      },
+                      {
+                        "x": 7183,
+                        "y": 4040
+                      },
+                      {
+                        "x": 804,
+                        "y": 4040
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3364,6 +3750,9 @@
       },
       {
         "objectName": "FloatingMeow"
+      },
+      {
+        "objectName": "ack"
       }
     ]
   },
@@ -4359,15 +4748,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 43,
-          "height": 416,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
           "layer": "",
-          "name": "NewButton4",
-          "persistentUuid": "5738413e-e0eb-4004-a26c-df8a5969938b",
-          "width": 677,
-          "x": 1095,
-          "y": 532,
+          "name": "NewButton5",
+          "persistentUuid": "210d5e60-e2dd-4a51-9680-cb4c28f14199",
+          "width": 0,
+          "x": 1351,
+          "y": 738,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -4459,6 +4848,102 @@
               "width": 192
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "NewButton5",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "遊戲圖解",
+              "font": "CarterOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "遊戲圖解",
+                "font": "CarterOne-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 40,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Floating Out Button Dark Blue_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4466,6 +4951,12 @@
         "children": [
           {
             "objectName": "退出"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewButton5"
           }
         ]
       },
@@ -4779,7 +5270,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "NewButton4",
+                "NewButton5",
                 ""
               ]
             }
@@ -4884,6 +5375,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -4929,7 +5424,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824514007,
+        "zoomFactor": 0.5117784035210216,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5307,14 +5802,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 450,
+          "height": 507,
           "keepRatio": true,
           "layer": "Layer",
           "name": "jashn",
           "persistentUuid": "f929129d-b684-473d-8a2c-0a520797f01a",
           "width": 240,
           "x": 1378,
-          "y": 280,
+          "y": 223,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -5408,16 +5903,49 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 48,
-          "height": 182,
+          "depth": 1,
+          "height": 247,
           "keepRatio": true,
           "layer": "Layer",
           "name": "任務完成進度條3",
-          "persistentUuid": "d91f26bb-0c42-4bfe-9f09-d8d9ec4c0ca6",
-          "width": 105,
-          "x": 1611,
-          "y": 499,
-          "zOrder": 28,
+          "persistentUuid": "f3d1e90c-39e1-4c6a-9257-ba9c9d8a2b8d",
+          "width": 121,
+          "x": 1634,
+          "y": 430,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 991,
+          "keepRatio": true,
+          "layer": "圖解",
+          "name": "ack",
+          "persistentUuid": "201ea25c-1739-435c-bd3c-9c2b5bbdfaa6",
+          "width": 1786,
+          "x": 63,
+          "y": 24,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "圖解",
+          "name": "TransparentButtonWithWhiteYellowBorder",
+          "persistentUuid": "e20e7b27-5fe5-4e87-a959-fc29bf00746e",
+          "width": 0,
+          "x": 861,
+          "y": 176,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6153,7 +6681,7 @@
           "content": {
             "ShowLabel": false,
             "MaxValue": 5,
-            "InitialValue": 0
+            "InitialValue": 5
           },
           "childrenContent": {
             "Background": {
@@ -6171,7 +6699,7 @@
               "height": 32,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "遊玩介面_任務進度條03.png",
+              "texture": "遊玩介面_任務進度條02.png",
               "tiled": false,
               "topMargin": 0,
               "width": 32
@@ -13289,7 +13817,7 @@
           "content": {
             "ShowLabel": false,
             "MaxValue": 5,
-            "InitialValue": 0
+            "InitialValue": 5
           },
           "childrenContent": {
             "Background": {
@@ -13482,7 +14010,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "任務完成進度條3",
+          "name": "任務完成進度條31",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
           "variant": "",
           "variables": [],
@@ -13562,6 +14090,343 @@
               }
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "任務完成進度條3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "bar1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "遊玩介面_任務進度條011.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 146,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 1483
+                          },
+                          {
+                            "x": 146,
+                            "y": 1483
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "bar2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "遊玩介面_任務進度條07.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 146,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 1483
+                          },
+                          {
+                            "x": 146,
+                            "y": 1483
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "bar3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "遊玩介面_任務進度條08.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 146,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 1483
+                          },
+                          {
+                            "x": 146,
+                            "y": 1483
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "bar4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "遊玩介面_任務進度條09.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 146,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 1483
+                          },
+                          {
+                            "x": 146,
+                            "y": 1483
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "bar5",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "遊玩介面_任務進度條010.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 146,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 0
+                          },
+                          {
+                            "x": 445,
+                            "y": 1483
+                          },
+                          {
+                            "x": 146,
+                            "y": 1483
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+          "name": "TransparentButtonWithWhiteYellowBorder",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Hovered.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Idle.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "遊戲指南",
+              "font": "Charm-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 50,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "遊戲指南",
+                "font": "Charm-Regular.ttf",
+                "textAlignment": "center",
+                "verticalTextAlignment": "top",
+                "characterSize": 50,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 10,
+              "height": 64,
+              "leftMargin": 6,
+              "rightMargin": 6,
+              "texture": "Transparent Button With White Yellow Border_Pressed.png",
+              "tiled": false,
+              "topMargin": 10,
+              "width": 192
+            }
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -13637,7 +14502,7 @@
             "objectName": "任務完成進度條2"
           },
           {
-            "objectName": "任務完成進度條3"
+            "objectName": "任務完成進度條31"
           },
           {
             "objectName": "Task"
@@ -13653,6 +14518,12 @@
           },
           {
             "objectName": "cat_litter"
+          },
+          {
+            "objectName": "任務完成進度條3"
+          },
+          {
+            "objectName": "TransparentButtonWithWhiteYellowBorder"
           }
         ]
       },
@@ -15451,326 +16322,127 @@
           ],
           "parameterObjects": "任務完成進度條2",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "runtimeScene.setBackgroundColor(100,100,240);",
-            "// Cat Litter 事件系統（仿照食物碗）",
-            "// 獲取物件",
+            "// GDevelop 5 JavaScript 事件：Cat Litter & 進度條互動系統",
+            "// 包含至少觸發兩次 Cat Litter 事件，及 ProgressBar3 動畫條點擊切換 (bar1~bar5)",
+            "",
+            "// 設定背景色",
+            "runtimeScene.setBackgroundColor(100, 100, 240);",
+            "",
+            "// 物件引用",
             "const catLitter = runtimeScene.getObjects(\"cat_litter\")[0];",
-            "const task3Objects = runtimeScene.getObjects(\"Task3\");",
-            "const task3Object = task3Objects.length > 0 ? task3Objects[0] : null;",
-            "const progressBar3Objects = runtimeScene.getObjects(\"任務完成進度條3\");",
-            "const progressBar3 = progressBar3Objects.length > 0 ? progressBar3Objects[0] : null;",
-            "// 獲取 jashn 角色物件",
-            "const jashnObjects = runtimeScene.getObjects(\"jashn\");",
-            "const jashn = jashnObjects.length > 0 ? jashnObjects[0] : null;",
+            "const task3Object = runtimeScene.getObjects(\"Task3\")[0] || null;",
+            "const progressBar3 = runtimeScene.getObjects(\"任務完成進度條3\")[0] || null;",
+            "const jashn = runtimeScene.getObjects(\"jashn\")[0] || null;",
+            "if (!catLitter || !progressBar3) return;",
             "",
-            "if (!catLitter) return;",
+            "// 初始化（場景開始僅執行一次）",
+            "if (!runtimeScene.getVariables().get(\"initialized\").getAsNumber()) {",
+            "  runtimeScene.getVariables().get(\"initialized\").setNumber(1);",
+            "  // 生成兩個不同隨機觸發秒數",
+            "  const t1 = gdjs.randomInRange(10, 50);",
+            "  let t2 = gdjs.randomInRange(10, 50);",
+            "  while (t2 === t1) t2 = gdjs.randomInRange(10, 50);",
+            "  runtimeScene.getVariables().get(\"trigger1\").setNumber(t1);",
+            "  runtimeScene.getVariables().get(\"trigger2\").setNumber(t2);",
+            "  console.log(`Triggers at ${t1}s and ${t2}s`);",
+            "  // 初始化變數",
+            "  [\"done1\",\"done2\",\"clicked\",\"interactive\",\"taskShown\",\"eventDone\",\"state\",\"completeTime\",\"lastClick\",\"barIndex\"].forEach(name => {",
+            "    runtimeScene.getVariables().get(name).setNumber(0);",
+            "  });",
+            "  // 預設進度條動畫 bar1",
+            "  progressBar3.setAnimationName(\"bar1\");",
+            "}",
             "",
-            "// 初始化變數",
-            "if (!runtimeScene.getVariables().has(\"litterState\")) {",
-            "  runtimeScene.getVariables().get(\"litterState\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"litterLastClickTime\").setNumber(0);",
-            "  ",
-            "  // 初始化事件狀態變數",
-            "  runtimeScene.getVariables().get(\"litterEventTriggered\").setNumber(0);   // 是否觸發事件",
-            "  runtimeScene.getVariables().get(\"litterClicked\").setNumber(0);          // 是否已點擊",
-            "  runtimeScene.getVariables().get(\"litterInteractionActive\").setNumber(0);// 是否進入交互階段",
-            "  runtimeScene.getVariables().get(\"litterTaskShown\").setNumber(0);        // 任務是否顯示",
-            "  runtimeScene.getVariables().get(\"litterEventComplete\").setNumber(0);    // cat_litter事件是否已完成",
-            "  ",
-            "  // 固定在第15秒觸發（60-15=45）- 與食物碗錯開時間",
-            "  const randomTriggerTime = 15;",
-            "  runtimeScene.getVariables().get(\"litterRandomTriggerTime\").setNumber(randomTriggerTime);",
-            "  ",
-            "  console.log(\"Cat Litter事件將在倒數 \" + (60 - randomTriggerTime) + \" 秒時觸發\");",
-            "  ",
-            "  // 初始時，將Task3和進度條3物件設為完全透明",
-            "  if (task3Object) {",
+            "// 每幀更新",
+            "const now = Date.now();",
+            "const count = runtimeScene.getVariables().get(\"counttime\").getAsNumber();",
+            "const t1v = runtimeScene.getVariables().get(\"trigger1\").getAsNumber();",
+            "const t2v = runtimeScene.getVariables().get(\"trigger2\").getAsNumber();",
+            "let done1 = runtimeScene.getVariables().get(\"done1\").getAsNumber();",
+            "let done2 = runtimeScene.getVariables().get(\"done2\").getAsNumber();",
+            "let clicked = runtimeScene.getVariables().get(\"clicked\").getAsNumber();",
+            "let interactive = runtimeScene.getVariables().get(\"interactive\").getAsNumber();",
+            "let taskShown = runtimeScene.getVariables().get(\"taskShown\").getAsNumber();",
+            "let eventDone = runtimeScene.getVariables().get(\"eventDone\").getAsNumber();",
+            "let state = runtimeScene.getVariables().get(\"state\").getAsNumber();",
+            "let barIndex = runtimeScene.getVariables().get(\"barIndex\").getAsNumber();",
+            "",
+            "// 觸發任務顯示",
+            "if (count === t1v && done1 === 0) {",
+            "  runtimeScene.getVariables().get(\"done1\").setNumber(1);",
+            "  runtimeScene.getVariables().get(\"taskShown\").setNumber(1);",
+            "  task3Object.setOpacity(255);",
+            "}",
+            "if (count === t2v && done2 === 0) {",
+            "  runtimeScene.getVariables().get(\"done2\").setNumber(1);",
+            "  runtimeScene.getVariables().get(\"taskShown\").setNumber(1);",
+            "  task3Object.setOpacity(255);",
+            "}",
+            "",
+            "// 鼠標點擊 catLitter",
+            "const mouse = runtimeScene.getGame().getInputManager();",
+            "const click = mouse.isMouseButtonReleased(0);",
+            "const mx = mouse.getMouseX(), my = mouse.getMouseY();",
+            "if (click && taskShown === 1 && now - runtimeScene.getVariables().get(\"lastClick\").getAsNumber() > 300 && catLitter.isCollidingWithPoint(mx,my)) {",
+            "  runtimeScene.getVariables().get(\"clicked\").setNumber(1);",
+            "  runtimeScene.getVariables().get(\"lastClick\").setNumber(now);",
+            "}",
+            "",
+            "// 角色接近進入互動",
+            "if (clicked === 1 && interactive === 0 && jashn) {",
+            "  const dx = jashn.getX()+jashn.getWidth()/2 - (catLitter.getX()+catLitter.getWidth()/2);",
+            "  const dy = jashn.getY()+jashn.getHeight()/2 - (catLitter.getY()+catLitter.getHeight()/2);",
+            "  if (Math.hypot(dx,dy) < 150) {",
+            "    runtimeScene.getVariables().get(\"interactive\").setNumber(1);",
+            "    runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
             "    task3Object.setOpacity(0);",
-            "  }",
-            "  if (progressBar3) {",
-            "    progressBar3.setOpacity(0);",
-            "  }",
-            "}",
-            "",
-            "// 獲取當前狀態和數據",
-            "const litterState = runtimeScene.getVariables().get(\"litterState\").getAsNumber();",
-            "const litterLastClickTime = runtimeScene.getVariables().get(\"litterLastClickTime\").getAsNumber();",
-            "const currentTime = Date.now();",
-            "const counttime = runtimeScene.getVariables().has(\"counttime\") ? ",
-            "                  runtimeScene.getVariables().get(\"counttime\").getAsNumber() : 60;",
-            "const randomTriggerTime = runtimeScene.getVariables().get(\"litterRandomTriggerTime\").getAsNumber();",
-            "const eventTriggered = runtimeScene.getVariables().get(\"litterEventTriggered\").getAsNumber();",
-            "const litterClicked = runtimeScene.getVariables().get(\"litterClicked\").getAsNumber();",
-            "const interactionActive = runtimeScene.getVariables().get(\"litterInteractionActive\").getAsNumber();",
-            "const litterTaskShown = runtimeScene.getVariables().get(\"litterTaskShown\").getAsNumber();",
-            "const litterEventComplete = runtimeScene.getVariables().get(\"litterEventComplete\").getAsNumber();",
-            "",
-            "// jashn 和 cat_litter 碰撞檢測",
-            "let isJashnNearLitter = false;",
-            "let debugDistance = 0;",
-            "",
-            "if (jashn && catLitter) {",
-            "  // 簡單距離檢測",
-            "  const jashnX = jashn.getX() + jashn.getWidth() / 2;  ",
-            "  const jashnY = jashn.getY() + jashn.getHeight() / 2;",
-            "  const litterX = catLitter.getX() + catLitter.getWidth() / 2;",
-            "  const litterY = catLitter.getY() + catLitter.getHeight() / 2;",
-            "  ",
-            "  // 計算距離",
-            "  const distanceX = jashnX - litterX;",
-            "  const distanceY = jashnY - litterY;",
-            "  const distance = Math.sqrt(distanceX * distanceX + distanceY * distanceY);",
-            "  debugDistance = distance;",
-            "  ",
-            "  // 較寬鬆的閾值",
-            "  const proximityThreshold = 150;",
-            "  isJashnNearLitter = distance < proximityThreshold;",
-            "  ",
-            "  // 邊界盒檢測",
-            "  const jashnLeft = jashn.getX();",
-            "  const jashnRight = jashn.getX() + jashn.getWidth();",
-            "  const jashnTop = jashn.getY();",
-            "  const jashnBottom = jashn.getY() + jashn.getHeight();",
-            "  ",
-            "  const litterLeft = catLitter.getX();",
-            "  const litterRight = catLitter.getX() + catLitter.getWidth();",
-            "  const litterTop = catLitter.getY();",
-            "  const litterBottom = catLitter.getY() + catLitter.getHeight();",
-            "  ",
-            "  // 擴展碰撞盒",
-            "  const expandMargin = 50;",
-            "  const expandedLitterLeft = litterLeft - expandMargin;",
-            "  const expandedLitterRight = litterRight + expandMargin;",
-            "  const expandedLitterTop = litterTop - expandMargin;",
-            "  const expandedLitterBottom = litterBottom + expandMargin;",
-            "  ",
-            "  // 檢查是否重疊",
-            "  const isOverlapping = !(",
-            "    jashnRight < expandedLitterLeft || ",
-            "    jashnLeft > expandedLitterRight || ",
-            "    jashnBottom < expandedLitterTop || ",
-            "    jashnTop > expandedLitterBottom",
-            "  );",
-            "  ",
-            "  // 使用任一種方法檢測到接近就算",
-            "  isJashnNearLitter = isJashnNearLitter || isOverlapping;",
-            "}",
-            "",
-            "// 第一步：在計時器到達特定時間且上一個事件已完成時顯示任務",
-            "if (!eventTriggered && litterEventComplete === 0 && counttime == 45) { // 在第15秒（60-45=15秒）觸發",
-            "  // 標記事件為已觸發",
-            "  runtimeScene.getVariables().get(\"litterEventTriggered\").setNumber(1);",
-            "  ",
-            "  // 將Task3物件透明度設為255（完全不透明）",
-            "  if (task3Object) {",
-            "    task3Object.setOpacity(255);",
-            "    runtimeScene.getVariables().get(\"litterTaskShown\").setNumber(1);",
-            "    console.log(\"計時器達到15秒，Task3物件變為可見（Cat Litter事件）\");",
-            "  }",
-            "  ",
-            "  console.log(\"Cat Litter事件在倒數 \" + counttime + \" 秒時觸發，顯示任務，等待點擊\");",
-            "}",
-            "",
-            "// 第二步：處理點擊 - 只有在事件已觸發但尚未點擊且事件未完成的情況下",
-            "const mouseX = runtimeScene.getGame().getInputManager().getMouseX();",
-            "const mouseY = runtimeScene.getGame().getInputManager().getMouseY();",
-            "const isOnObject = catLitter.isCollidingWithPoint(mouseX, mouseY);",
-            "const isClicked = runtimeScene.getGame().getInputManager().isMouseButtonReleased(0);",
-            "",
-            "if (isOnObject && isClicked && (currentTime - litterLastClickTime > 300) && ",
-            "    eventTriggered === 1 && litterClicked === 0 && litterEventComplete === 0) {",
-            "  // 更新最後點擊時間",
-            "  runtimeScene.getVariables().get(\"litterLastClickTime\").setNumber(currentTime);",
-            "  ",
-            "  // 標記為已點擊",
-            "  runtimeScene.getVariables().get(\"litterClicked\").setNumber(1);",
-            "  ",
-            "  console.log(\"Cat Litter被點擊，等待 jashn 角色接觸\");",
-            "}",
-            "",
-            "// 第三步：jashn 接觸後開始交互（僅在已點擊但尚未開始交互且事件未完成的情況下）",
-            "if (litterClicked === 1 && interactionActive === 0 && litterEventComplete === 0 && isJashnNearLitter) {",
-            "  // 啟動交互階段",
-            "  runtimeScene.getVariables().get(\"litterInteractionActive\").setNumber(1);",
-            "  ",
-            "  // 設置交互階段持續時間（例如：10秒）",
-            "  runtimeScene.getVariables().get(\"litterInteractionEndTime\").setNumber(currentTime + 10000);",
-            "  ",
-            "  // 隱藏Task3物件，顯示進度條3",
-            "  if (task3Object) {",
-            "    task3Object.setOpacity(0);",
-            "    runtimeScene.getVariables().get(\"litterTaskShown\").setNumber(0);",
-            "  }",
-            "  if (progressBar3) {",
             "    progressBar3.setOpacity(255);",
-            "    console.log(\"jashn 接觸Cat Litter，進度條3顯示\");",
-            "  }",
-            "  ",
-            "  // 設置 eventCompleted 為 1，這會觸發進度條重置為 100%",
-            "  runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
-            "  console.log(\"設置 eventCompleted=1，觸發進度條重置為 100%（Cat Litter事件）\");",
-            "  ",
-            "  console.log(\"jashn 接觸Cat Litter，開始交互階段\");",
-            "}",
-            "",
-            "// 檢查交互是否應該結束",
-            "if (interactionActive === 1) {",
-            "  const interactionEndTime = runtimeScene.getVariables().get(\"litterInteractionEndTime\").getAsNumber();",
-            "  ",
-            "  // 如果交互時間結束或 jashn 離開cat_litter很遠，結束交互",
-            "  if (currentTime > interactionEndTime || (!isJashnNearLitter && debugDistance > 300)) {",
-            "    // 交互時間結束",
-            "    runtimeScene.getVariables().get(\"litterInteractionActive\").setNumber(0);",
-            "    ",
-            "    // 確保Task3物件和進度條3設回完全透明",
-            "    if (task3Object) {",
-            "      task3Object.setOpacity(0);",
-            "    }",
-            "    if (progressBar3) {",
-            "      progressBar3.setOpacity(0);",
-            "    }",
-            "    ",
-            "    console.log(\"Cat Litter交互階段結束 - \" + ",
-            "      (currentTime > interactionEndTime ? \"時間到\" : \"jashn 離開Cat Litter\"));",
-            "  }",
-            "  ",
-            "  // 處理點擊更新進度 - 僅當交互階段處於活動狀態且事件未完成時",
-            "  if (isOnObject && isClicked && (currentTime - litterLastClickTime > 300) && litterEventComplete === 0) {",
-            "    // 更新最後點擊時間",
-            "    runtimeScene.getVariables().get(\"litterLastClickTime\").setNumber(currentTime);",
-            "    ",
-            "    // 只有當還沒到最後一個狀態時才繼續",
-            "    if (litterState < 3) {",
-            "      // 計算下一個狀態 (但不循環)",
-            "      const nextState = litterState + 1;",
-            "      runtimeScene.getVariables().get(\"litterState\").setNumber(nextState);",
-            "      ",
-            "      // 根據新狀態設置正確的動畫（如果cat_litter有不同狀態的動畫）",
-            "      try {",
-            "        const animationName = \"litter_state\" + nextState; // 假設動畫名稱",
-            "        catLitter.setAnimationName(animationName);",
-            "        console.log(\"Cat Litter狀態變更為: \" + nextState + \", 動畫: \" + animationName);",
-            "      } catch (error) {",
-            "        console.log(\"Cat Litter動畫設置失敗或不存在: \" + animationName);",
-            "      }",
-            "      ",
-            "      // 更新進度條3 - 使用變數而非動畫",
-            "      if (progressBar3) {",
-            "        // 將進度信息保存在變數中",
-            "        runtimeScene.getVariables().get(\"litterProgressState\").setNumber(nextState);",
-            "        console.log(\"Cat Litter進度更新為：\" + nextState);",
-            "      }",
-            "      ",
-            "      // 設置 eventCompleted 為 1，觸發進度條重置",
-            "      runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
-            "      console.log(\"Cat Litter點擊 - 設置 eventCompleted=1，觸發進度條重置\");",
-            "      ",
-            "      // 填滿後結束交互階段並標記事件完成",
-            "      if (nextState === 3) {",
-            "        // 設定延遲以顯示完成進度",
-            "        runtimeScene.getVariables().get(\"litterCompletionTime\").setNumber(currentTime + 1000); // 延遲1秒",
-            "        runtimeScene.getVariables().get(\"litterTaskCompleted\").setNumber(1);",
-            "        // 標記cat_litter事件已完成",
-            "        runtimeScene.getVariables().get(\"litterEventComplete\").setNumber(1);",
-            "        ",
-            "        // 最終設置 eventCompleted 為 1",
-            "        runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
-            "        console.log(\"Cat Litter任務完成，事件標記為已完成，設置 eventCompleted=1\");",
-            "        ",
-            "        console.log(\"Cat Litter任務完成，將在1秒後結束交互階段\");",
-            "      }",
-            "    } else {",
-            "      console.log(\"Cat Litter已達到最大狀態\");",
-            "    }",
             "  }",
             "}",
             "",
-            "// 處理任務完成後的延遲",
-            "if (runtimeScene.getVariables().has(\"litterTaskCompleted\") && ",
-            "    runtimeScene.getVariables().get(\"litterTaskCompleted\").getAsNumber() === 1) {",
-            "  ",
-            "  const completionTime = runtimeScene.getVariables().get(\"litterCompletionTime\").getAsNumber();",
-            "  ",
-            "  if (currentTime > completionTime) {",
-            "    runtimeScene.getVariables().get(\"litterInteractionActive\").setNumber(0);",
-            "    runtimeScene.getVariables().get(\"litterTaskCompleted\").setNumber(0);",
-            "    ",
-            "    // 隱藏進度條3",
-            "    if (progressBar3) {",
-            "      progressBar3.setOpacity(0);",
-            "    }",
-            "    ",
-            "    console.log(\"Cat Litter已完成，交互階段完全結束\");",
+            "// 點擊進度互動更新狀態",
+            "if (interactive === 1 && click && now - runtimeScene.getVariables().get(\"lastClick\").getAsNumber() > 300) {",
+            "  runtimeScene.getVariables().get(\"lastClick\").setNumber(now);",
+            "  // 切換進度條動畫",
+            "  barIndex = (barIndex % 5) + 1;",
+            "  runtimeScene.getVariables().get(\"barIndex\").setNumber(barIndex);",
+            "  progressBar3.setAnimationName(\"bar\"+barIndex);",
+            "  if (barIndex === 5) {",
+            "    runtimeScene.getVariables().get(\"eventDone\").setNumber(1);",
+            "    runtimeScene.getVariables().get(\"completeTime\").setNumber(now+500);",
             "  }",
             "}",
             "",
-            "// 當計時器重置時，重置事件觸發狀態",
-            "if (counttime >= 60) {",
-            "  // 重置所有事件相關狀態",
-            "  runtimeScene.getVariables().get(\"litterEventTriggered\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"litterClicked\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"litterInteractionActive\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"litterTaskShown\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"litterEventComplete\").setNumber(0);",
-            "  if (runtimeScene.getVariables().has(\"litterTaskCompleted\")) {",
-            "    runtimeScene.getVariables().get(\"litterTaskCompleted\").setNumber(0);",
-            "  }",
-            "  ",
-            "  // 將Task3物件和進度條3設回完全透明",
-            "  if (task3Object) {",
-            "    task3Object.setOpacity(0);",
-            "  }",
-            "  if (progressBar3) {",
-            "    progressBar3.setOpacity(0);",
-            "  }",
-            "  ",
-            "  // 重置cat_litter狀態",
-            "  runtimeScene.getVariables().get(\"litterState\").setNumber(0);",
-            "  try {",
-            "    catLitter.setAnimationName(\"litter_state0\"); // 重置為初始狀態",
-            "  } catch (error) {",
-            "    // 忽略動畫錯誤",
-            "  }",
-            "  ",
-            "  const newRandomTriggerTime = Math.floor(Math.random() * (60 - 10 + 1)) + 10;",
-            "  runtimeScene.getVariables().get(\"litterRandomTriggerTime\").setNumber(newRandomTriggerTime);",
-            "  console.log(\"重設Cat Litter隨機事件，下次將在倒數 \" + (60-newRandomTriggerTime) + \" 秒時觸發\");",
+            "// 隱藏完成並重置",
+            "if (eventDone === 1 && now > runtimeScene.getVariables().get(\"completeTime\").getAsNumber()) {",
+            "  progressBar3.setOpacity(0);",
+            "  runtimeScene.getVariables().get(\"clicked\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"interactive\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"state\").setNumber(0);",
+            "  runtimeScene.getVariables().get(\"eventDone\").setNumber(0);",
             "}",
             "",
-            "// 根據不同階段設置cat_litter外觀",
-            "if (interactionActive === 1) {",
-            "  // 交互階段中 - 完全不透明",
-            "  catLitter.setOpacity(255);",
-            "} else if (litterClicked === 1 && !interactionActive && litterEventComplete === 0) {",
-            "  // 已點擊但等待 jashn 接觸 - 閃爍效果",
-            "  catLitter.setOpacity(180 + Math.sin(currentTime / 200) * 50);",
-            "} else if (eventTriggered === 1 && litterEventComplete === 0) {",
-            "  // 事件已觸發但尚未點擊 - 中等透明度",
-            "  catLitter.setOpacity(200);",
-            "} else if (litterEventComplete === 1) {",
-            "  // 事件已完成 - 暗淡效果",
-            "  catLitter.setOpacity(120);",
-            "} else {",
-            "  // 正常狀態 - 半透明",
-            "  catLitter.setOpacity(150);",
+            "// 倒計時重置",
+            "if (count >= 60) {",
+            "  runtimeScene.getVariables().get(\"initialized\").setNumber(0);",
             "}",
             "",
-            "// 調試信息",
-            "console.log(\"Cat Litter - 計時: \" + counttime + ",
-            "            \", 事件觸發: \" + eventTriggered + ",
-            "            \", 已點擊: \" + litterClicked +",
-            "            \", 交互活躍: \" + interactionActive + ",
-            "            \", 事件完成: \" + litterEventComplete +",
-            "            \", jashn接近: \" + isJashnNearLitter);"
+            "// catLitter 透明度",
+            "if (interactive) catLitter.setOpacity(255);",
+            "else if (clicked) catLitter.setOpacity(180 + Math.sin(now/200)*50);",
+            "else if (taskShown) catLitter.setOpacity(200);",
+            "else if (eventDone) catLitter.setOpacity(120);",
+            "else catLitter.setOpacity(150);",
+            ""
           ],
           "parameterObjects": "cat_litter",
           "useStrict": true,
-          "eventsSheetExpanded": false
+          "eventsSheetExpanded": true
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -15782,6 +16454,17 @@
               "parameters": [
                 "退出按鈕",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "settime",
+                "Text",
+                "=",
+                "\"0\""
               ]
             }
           ],
@@ -15809,6 +16492,17 @@
                 "下一關按鈕",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "settime",
+                "Text",
+                "=",
+                "\"0\""
+              ]
             }
           ],
           "actions": [
@@ -15835,6 +16529,17 @@
                 "重新來過按鈕",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::Value"
+              },
+              "parameters": [
+                "settime",
+                "Text",
+                "=",
+                "\"0\""
+              ]
             }
           ],
           "actions": [
@@ -15848,6 +16553,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -15974,7 +16684,40 @@
           "isLocked": false,
           "name": "scored",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "圖解",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -35397,7 +36140,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875000000003,
+        "zoomFactor": 0.40575189059438505,
         "windowMask": false
       },
       "objectsGroups": [
@@ -35505,57 +36248,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 403,
-          "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "計時器背景",
-          "persistentUuid": "2d086a07-f4d8-4478-a8d4-04294d781b27",
-          "width": 608,
-          "x": -107,
-          "y": -174,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 177,
-          "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "計時器",
-          "persistentUuid": "7beaa988-79ac-4382-bb96-85252f1a25ee",
-          "width": 186,
-          "x": 32,
-          "y": -14,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 21,
-          "height": 210,
-          "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "任務完成進度條",
-          "persistentUuid": "b137d279-3a1e-4107-9985-20489ed61a5e",
-          "width": 86,
-          "x": 211,
-          "y": 416,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 769,
           "keepRatio": true,
           "layer": "scored",
@@ -35640,133 +36332,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 893,
+          "height": 1289,
           "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "關卡背景",
-          "persistentUuid": "bd82e3fb-62c2-4550-95c3-c5cdd40a7a39",
-          "width": 1918,
-          "x": 0,
-          "y": 2,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 109,
-          "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "進度條",
-          "persistentUuid": "36d04c16-5df7-460c-b76d-d7ceda900cc6",
-          "width": 1915,
-          "x": 5,
-          "y": 925,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 281,
-          "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "進度條底圖",
-          "persistentUuid": "8e10e59e-463f-48a0-9926-1052f7dabe07",
-          "width": 2094,
-          "x": -107,
-          "y": 803,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 332,
-          "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "進度條上圖",
-          "persistentUuid": "b2cc0de2-57a5-4c13-8a73-837915619359",
-          "width": 2056,
-          "x": -64,
-          "y": 833,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 277,
-          "keepRatio": true,
-          "layer": "Layer",
-          "name": "cat",
-          "persistentUuid": "3ffb767d-538c-4f5a-975c-54684d02520c",
-          "width": 414,
-          "x": 809,
-          "y": 551,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "GamePlay UI",
-          "name": "settime",
-          "persistentUuid": "7f9f8673-2a42-4e79-b4c6-214df7a68d1e",
-          "width": 0,
-          "x": 211,
-          "y": 31,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 137,
-          "keepRatio": true,
-          "layer": "Layer",
-          "name": "feed_bowl",
-          "persistentUuid": "78f22329-c59d-4fea-97e5-8e074d858ea5",
-          "width": 128,
-          "x": 70,
-          "y": 573,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 218,
-          "keepRatio": true,
-          "layer": "Layer",
-          "name": "Task",
-          "persistentUuid": "9e652d0c-00a5-45cc-96b4-d8b3d410f83a",
-          "width": 207,
-          "x": 189,
-          "y": 386,
-          "zOrder": 22,
+          "layer": "",
+          "name": "ack",
+          "persistentUuid": "8bc3aa45-2a88-4bdd-b5d2-cfbf4a1b0e36",
+          "width": 2088,
+          "x": -65,
+          "y": -118,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43493,965 +44067,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"ChangeDirection\"",
-                ">=",
-                "0.2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "cat",
-                "direction",
-                "=",
-                "RandomInRange(0, 3)"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"ChangeDirection\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "cat",
-                    "direction",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "cat",
-                    "=",
-                    "-100 * TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "cat",
-                    "direction",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "cat",
-                    "=",
-                    "+100 * TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "cat",
-                    "direction",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "cat",
-                    "=",
-                    "-100 * TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "cat",
-                    "direction",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "cat",
-                    "=",
-                    "+100 * TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "cat",
-                    ">",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "cat",
-                    "direction",
-                    "=",
-                    "3"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": [
-                "const cat = runtimeScene.getObjects(\"cat\")[0];",
-                "if (!cat) return;",
-                "const vars = cat.getVariables();",
-                "",
-                "// 初始化變數",
-                "if (!vars.has(\"vx\")) vars.get(\"vx\").setNumber((Math.random() - 0.5) * 2);",
-                "if (!vars.has(\"vy\")) vars.get(\"vy\").setNumber((Math.random() - 0.5) * 2);",
-                "if (!vars.has(\"tick\")) vars.get(\"tick\").setNumber(new Date().getTime());",
-                "if (!vars.has(\"pause\")) vars.get(\"pause\").setNumber(0);",
-                "if (!vars.has(\"sleeping\")) vars.get(\"sleeping\").setNumber(0); ",
-                "if (!vars.has(\"moveTime\")) vars.get(\"moveTie\").setNumber(Math.random() * 3000 + 2000); // 2-5秒隨機移動時間",
-                "if (!vars.has(\"movePattern\")) vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3)); // 0=直線, 1=曲線, 2=隨機曲線",
-                "if (!vars.has(\"curveAngle\")) vars.get(\"curveAngle\").setNumber(0); // 用於曲線移動的角度",
-                "if (!vars.has(\"targetX\")) vars.get(\"targetX\").setNumber(cat.getX() + Math.random() * 200 - 100);",
-                "if (!vars.has(\"targetY\")) vars.get(\"targetY\").setNumber(cat.getY() + Math.random() * 100 - 50);",
-                "",
-                "let vx = vars.get(\"vx\").getAsNumber();",
-                "let vy = vars.get(\"vy\").getAsNumber();",
-                "let paused = vars.get(\"pause\").getAsNumber();",
-                "let sleeping = vars.get(\"sleeping\").getAsNumber();",
-                "let moveTime = vars.get(\"moveTime\").getAsNumber();",
-                "let movePattern = vars.get(\"movePattern\").getAsNumber();",
-                "let curveAngle = vars.get(\"curveAngle\").getAsNumber();",
-                "let targetX = vars.get(\"targetX\").getAsNumber();",
-                "let targetY = vars.get(\"targetY\").getAsNumber();",
-                "",
-                "const lastTick = vars.get(\"tick\").getAsNumber();",
-                "const now = new Date().getTime();",
-                "const speed = 80 / 60;",
-                "const elapsedTime = now - lastTick;",
-                "",
-                "// 若正在睡覺",
-                "if (sleeping === 1) {",
-                "  cat.setAnimationName(\"getDown\");",
-                "  if (elapsedTime > 3000) {",
-                "    vars.get(\"sleeping\").setNumber(0);",
-                "    vars.get(\"pause\").setNumber(0);",
-                "    vars.get(\"tick\").setNumber(now);",
-                "    // 設定新的移動時間和模式",
-                "    vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
-                "    vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
-                "    // 設定新的目標點",
-                "    vars.get(\"targetX\").setNumber(cat.getX() + (Math.random() * 300 - 150));",
-                "    vars.get(\"targetY\").setNumber(cat.getY() + (Math.random() * 100 - 50));",
-                "  }",
-                "  return;",
-                "}",
-                "",
-                "// 若正在暫停（坐下）",
-                "if (paused === 1) {",
-                "  cat.setAnimationName(\"sitdown\");",
-                "  if (elapsedTime > 1000) {",
-                "    vars.get(\"pause\").setNumber(0);",
-                "    vars.get(\"tick\").setNumber(now);",
-                "    // 設定新的移動時間和模式",
-                "    vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
-                "    vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
-                "    // 設定新的目標點",
-                "    vars.get(\"targetX\").setNumber(cat.getX() + (Math.random() * 300 - 150));",
-                "    vars.get(\"targetY\").setNumber(cat.getY() + (Math.random() * 100 - 50));",
-                "  }",
-                "  return;",
-                "}",
-                "",
-                "// 檢查是否需要改變移動方式",
-                "if (elapsedTime > moveTime) {",
-                "  const chance = Math.random();",
-                "  if (chance < 0.25) {",
-                "    // 25% 睡覺",
-                "    vars.get(\"sleeping\").setNumber(1);",
-                "    vars.get(\"tick\").setNumber(now);",
-                "    return;",
-                "  } else if (chance < 0.5) {",
-                "    // 25% 坐下",
-                "    vars.get(\"pause\").setNumber(1);",
-                "    vars.get(\"tick\").setNumber(now);",
-                "    return;",
-                "  } else {",
-                "    // 50% 選擇新的移動模式和方向",
-                "    movePattern = Math.floor(Math.random() * 3); // 0=直線, 1=曲線, 2=隨機曲線",
-                "    vars.get(\"movePattern\").setNumber(movePattern);",
-                "    ",
-                "    // 設定新的移動時間 - 更多變化",
-                "    vars.get(\"moveTime\").setNumber(Math.random() * 4000 + 1000); // 1-5秒",
-                "    ",
-                "    // 設定新的目標點 - 更遠的距離",
-                "    targetX = cat.getX() + (Math.random() * 400 - 200);",
-                "    targetY = cat.getY() + (Math.random() * 150 - 75);",
-                "    vars.get(\"targetX\").setNumber(targetX);",
-                "    vars.get(\"targetY\").setNumber(targetY);",
-                "    ",
-                "    // 根據目標點計算初始速度向量",
-                "    const dx = targetX - cat.getX();",
-                "    const dy = targetY - cat.getY();",
-                "    const dist = Math.sqrt(dx*dx + dy*dy);",
-                "    // 速度有隨機變化",
-                "    if (dist > 0) {",
-                "      vx = (dx / dist) * (Math.random() * 1 + 0.8);    ",
-                "      vy = (dy / dist) * (Math.random() * 0.8 + 0.5);",
-                "    } else {",
-                "      vx = (Math.random() - 0.5) * 1.8;",
-                "      vy = (Math.random() - 0.5) * 1.2;",
-                "    }",
-                "    ",
-                "    vars.get(\"vx\").setNumber(vx);",
-                "    vars.get(\"vy\").setNumber(vy);",
-                "    vars.get(\"tick\").setNumber(now);",
-                "    vars.get(\"curveAngle\").setNumber(0);",
-                "  }",
-                "}",
-                "",
-                "// 🐾 正常移動階段：播放走路動畫",
-                "cat.setAnimationName(\"walk\");",
-                "",
-                "// 根據不同移動模式更新位置",
-                "if (movePattern === 0) {",
-                "  // 直線移動 - 保持當前速度",
-                "  cat.flipX(vx < 0);",
-                "  cat.setX(cat.getX() + vx * speed);",
-                "  cat.setY(cat.getY() + vy * speed);",
-                "} else if (movePattern === 1) {",
-                "  // 曲線移動 - 沿著圓弧移動",
-                "  curveAngle += 0.05;",
-                "  vars.get(\"curveAngle\").setNumber(curveAngle);",
-                "  ",
-                "  // 基本移動方向",
-                "  let baseX = vx * speed;",
-                "  let baseY = vy * speed;",
-                "  ",
-                "  // 添加圓周運動分量",
-                "  let curveX = Math.cos(curveAngle) * speed * 0.5;",
-                "  let curveY = Math.sin(curveAngle) * speed * 0.5;",
-                "  ",
-                "  cat.flipX(baseX + curveX < 0);",
-                "  cat.setX(cat.getX() + baseX + curveX);",
-                "  cat.setY(cat.getY() + baseY + curveY);",
-                "} else {",
-                "  // 隨機曲線 - 添加隨機擾動",
-                "  curveAngle += 0.05;",
-                "  vars.get(\"curveAngle\").setNumber(curveAngle);",
-                "  ",
-                "  // 微調方向 - 添加小的隨機變化",
-                "  vx += (Math.random() - 0.5) * 0.1;",
-                "  vy += (Math.random() - 0.5) * 0.1;",
-                "  ",
-                "  // 限制最大速度",
-                "  const max = 1.8;",
-                "  vx = Math.max(-max, Math.min(max, vx));",
-                "  vy = Math.max(-max, Math.min(max, vy));",
-                "  vars.get(\"vx\").setNumber(vx);",
-                "  vars.get(\"vy\").setNumber(vy);",
-                "  ",
-                "  cat.flipX(vx < 0);",
-                "  cat.setX(cat.getX() + vx * speed);",
-                "  cat.setY(cat.getY() + vy * speed);",
-                "}",
-                "",
-                "// 區域限制",
-                "if (cat.getX() < 320) {",
-                "  vars.get(\"vx\").setNumber(Math.abs(vx) * (Math.random() * 0.5 + 0.8));",
-                "  vars.get(\"targetX\").setNumber(cat.getX() + Math.random() * 300 + 100);",
-                "}",
-                "if (cat.getX() > 2000) {",
-                "  vars.get(\"vx\").setNumber(-Math.abs(vx) * (Math.random() * 0.5 + 0.8));",
-                "  vars.get(\"targetX\").setNumber(cat.getX() - Math.random() * 300 - 100);",
-                "}",
-                "if (cat.getY() < 500) {",
-                "  vars.get(\"vy\").setNumber(Math.abs(vy) * (Math.random() * 0.5 + 0.8));",
-                "  vars.get(\"targetY\").setNumber(cat.getY() + Math.random() * 50 + 20);",
-                "}",
-                "if (cat.getY() > 650) {",
-                "  vars.get(\"vy\").setNumber(-Math.abs(vy) * (Math.random() * 0.5 + 0.8));",
-                "  vars.get(\"targetY\").setNumber(cat.getY() - Math.random() * 50 - 20);",
-                "}"
-              ],
-              "parameterObjects": "cat",
-              "useStrict": true,
-              "eventsSheetExpanded": true
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "feed_bowl",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VariableChildCount"
-                  },
-                  "parameters": [
-                    "state",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "Animation",
-                    "=",
-                    "\"feed_boel1\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "state",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VariableChildCount"
-                  },
-                  "parameters": [
-                    "state",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "Animation",
-                    "=",
-                    "\"feed_boel2\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "state",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VariableChildCount"
-                  },
-                  "parameters": [
-                    "state",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "Animation",
-                    "=",
-                    "\"feed_boel3\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "state",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VariableChildCount"
-                  },
-                  "parameters": [
-                    "state",
-                    "=",
-                    "3"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ButtonStates::ButtonFSM::IsClicked"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "ButtonFSM",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "feed_bowl",
-                    "Animation",
-                    "=",
-                    "\"feed_boel0\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "state",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ],
-          "variables": [
-            {
-              "name": "state",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": [
-            "// 設置背景顏色",
-            "runtimeScene.setBackgroundColor(100, 100, 240);",
-            "",
-            "// 獲取物件",
-            "const feedBowl = runtimeScene.getObjects(\"feed_bowl\")[0];",
-            "const taskObjects = runtimeScene.getObjects(\"Task\");",
-            "const taskObject = taskObjects.length > 0 ? taskObjects[0] : null;",
-            "const progressBarObjects = runtimeScene.getObjects(\"任務完成進度條\");",
-            "const progressBar = progressBarObjects.length > 0 ? progressBarObjects[0] : null;",
-            "",
-            "if (!feedBowl) return;",
-            "",
-            "// 初始化變數",
-            "if (!runtimeScene.getVariables().has(\"bowlState\")) {",
-            "  runtimeScene.getVariables().get(\"bowlState\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"lastClickTime\").setNumber(0);",
-            "  ",
-            "  // 初始化隨機觸發變數",
-            "  runtimeScene.getVariables().get(\"bowlEventTriggered\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
-            "  ",
-            "  // 生成10-60秒之間的隨機觸發時間",
-            "  //const randomTriggerTime = Math.floor(Math.random() * (60 - 10 + 1)) + 10;",
-            "  const randomTriggerTime = 50; // 固定在第10秒觸發 (60-10=50)",
-            "  runtimeScene.getVariables().get(\"bowlRandomTriggerTime\").setNumber(randomTriggerTime);",
-            "  ",
-            "  console.log(\"食物碗事件將在倒數 \" + randomTriggerTime + \" 秒時觸發\");",
-            "  ",
-            "  // 初始時，將Task和進度條物件設為完全透明",
-            "  if (taskObject) {",
-            "    taskObject.setOpacity(0);",
-            "  }",
-            "  if (progressBar) {",
-            "    progressBar.setOpacity(0);",
-            "    // 不使用setAnimationName，改用顯示/隱藏不同進度的物件",
-            "  }",
-            "}",
-            "",
-            "// 獲取當前狀態和數據",
-            "const bowlState = runtimeScene.getVariables().get(\"bowlState\").getAsNumber();",
-            "const lastClickTime = runtimeScene.getVariables().get(\"lastClickTime\").getAsNumber();",
-            "const currentTime = Date.now();",
-            "const counttime = runtimeScene.getVariables().has(\"counttime\") ? ",
-            "                  runtimeScene.getVariables().get(\"counttime\").getAsNumber() : 60;",
-            "const randomTriggerTime = runtimeScene.getVariables().get(\"bowlRandomTriggerTime\").getAsNumber();",
-            "const eventTriggered = runtimeScene.getVariables().get(\"bowlEventTriggered\").getAsNumber();",
-            "const interactionActive = runtimeScene.getVariables().get(\"bowlInteractionActive\").getAsNumber();",
-            "const taskShown = runtimeScene.getVariables().get(\"taskShown\").getAsNumber();",
-            "",
-            "// 檢查是否應該開始食物碗的交互階段",
-            "//if (!eventTriggered && counttime <= randomTriggerTime && counttime > 10) {",
-            "if (!eventTriggered && counttime == 50) { // 精確在第10秒觸發",
-            "  // 標記事件為已觸發",
-            "  runtimeScene.getVariables().get(\"bowlEventTriggered\").setNumber(1);",
-            "  ",
-            "  // 啟動交互階段",
-            "  runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(1);",
-            "  ",
-            "  // 設置交互階段持續時間（例如：10秒）",
-            "  runtimeScene.getVariables().get(\"bowlInteractionEndTime\").setNumber(currentTime + 10000);",
-            "  ",
-            "  // 將Task物件透明度設為255（完全不透明）",
-            "  if (taskObject) {",
-            "    taskObject.setOpacity(255);",
-            "    runtimeScene.getVariables().get(\"taskShown\").setNumber(1);",
-            "    console.log(\"Task物件變為完全可見，透明度設為255\");",
-            "  }",
-            "  ",
-            "  // 進度條初始設為不可見",
-            "  if (progressBar) {",
-            "    progressBar.setOpacity(0);",
-            "    // 不使用setAnimationName",
-            "  }",
-            "  ",
-            "  console.log(\"食物碗在倒數 \" + counttime + \" 秒時開始交互階段\");",
-            "}",
-            "",
-            "// 檢查交互是否應該結束",
-            "if (interactionActive === 1) {",
-            "  const interactionEndTime = runtimeScene.getVariables().get(\"bowlInteractionEndTime\").getAsNumber();",
-            "  ",
-            "  if (currentTime > interactionEndTime) {",
-            "    // 交互時間結束",
-            "    runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
-            "    ",
-            "    // 確保Task物件和進度條設回完全透明",
-            "    if (taskObject) {",
-            "      taskObject.setOpacity(0);",
-            "      runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
-            "    }",
-            "    if (progressBar) {",
-            "      progressBar.setOpacity(0);",
-            "    }",
-            "    ",
-            "    console.log(\"食物碗交互階段結束\");",
-            "  }",
-            "}",
-            "",
-            "// 處理點擊 - 僅當交互階段處於活動狀態時才允許",
-            "const mouseX = runtimeScene.getGame().getInputManager().getMouseX();",
-            "const mouseY = runtimeScene.getGame().getInputManager().getMouseY();",
-            "const isOnObject = feedBowl.isCollidingWithPoint(mouseX, mouseY);",
-            "const isClicked = runtimeScene.getGame().getInputManager().isMouseButtonReleased(0);",
-            "",
-            "if (isOnObject && isClicked && (currentTime - lastClickTime > 300) && interactionActive === 1) {",
-            "  // 更新最後點擊時間",
-            "  runtimeScene.getVariables().get(\"lastClickTime\").setNumber(currentTime);",
-            "  ",
-            "  // 設置eventCompleted為1，讓進度條重置為100% - 新增部分",
-            "  runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
-            "  console.log(\"觸發點擊事件，設置eventCompleted=1\");",
-            "  ",
-            "  // 第一次點擊時，隱藏Task物件，顯示進度條",
-            "  if (taskShown === 1) {",
-            "    if (taskObject) {",
-            "      taskObject.setOpacity(0);",
-            "      runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
-            "      console.log(\"首次點擊後Task物件隱藏\");",
-            "    }",
-            "    if (progressBar) {",
-            "      progressBar.setOpacity(255); // 調整透明度為255（完全不透明）",
-            "      // 不使用setAnimationName",
-            "      console.log(\"任務完成進度條顯示，透明度設為255\");",
-            "    }",
-            "  }",
-            "  ",
-            "  // 只有當還沒到最後一個狀態時才繼續",
-            "  if (bowlState < 3) {",
-            "    // 計算下一個狀態 (但不循環)",
-            "    const nextState = bowlState + 1;",
-            "    runtimeScene.getVariables().get(\"bowlState\").setNumber(nextState);",
-            "    ",
-            "    // 根據新狀態設置正確的動畫",
-            "    const animationName = \"feed_boel\" + nextState;",
-            "    feedBowl.setAnimationName(animationName);",
-            "    ",
-            "    // 更新進度條 - 使用變數而非動畫",
-            "    if (progressBar) {",
-            "      // 將進度信息保存在變數中",
-            "      runtimeScene.getVariables().get(\"progressState\").setNumber(nextState);",
-            "      console.log(\"進度更新為：\" + nextState);",
-            "    }",
-            "    ",
-            "    console.log(\"碗狀態變更為: \" + nextState + \", 動畫: \" + animationName);",
-            "    ",
-            "    // 填滿後結束交互階段",
-            "    if (nextState === 3) {",
-            "      // 設定延遲以顯示完成進度",
-            "      runtimeScene.getVariables().get(\"completionTime\").setNumber(currentTime + 1000); // 延遲1秒",
-            "      runtimeScene.getVariables().get(\"taskCompleted\").setNumber(1);",
-            "      ",
-            "      // 再次設置eventCompleted為1，確保任務完成時進度條也會重置 - 新增部分",
-            "      runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
-            "      console.log(\"任務完成，設置eventCompleted=1\");",
-            "      ",
-            "      console.log(\"任務完成，將在1秒後結束交互階段\");",
-            "    }",
-            "  } else {",
-            "    console.log(\"已達到最大狀態，保持在 feed_boel3\");",
-            "  }",
-            "}",
-            "",
-            "// 處理任務完成後的延遲",
-            "if (runtimeScene.getVariables().has(\"taskCompleted\") && ",
-            "    runtimeScene.getVariables().get(\"taskCompleted\").getAsNumber() === 1) {",
-            "  ",
-            "  const completionTime = runtimeScene.getVariables().get(\"completionTime\").getAsNumber();",
-            "  ",
-            "  if (currentTime > completionTime) {",
-            "    runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
-            "    runtimeScene.getVariables().get(\"taskCompleted\").setNumber(0);",
-            "    ",
-            "    // 隱藏進度條",
-            "    if (progressBar) {",
-            "      progressBar.setOpacity(0);",
-            "    }",
-            "    ",
-            "    // 最後一次設置eventCompleted為1，確保整個任務完成後進度條會重置 - 新增部分",
-            "    runtimeScene.getVariables().get(\"eventCompleted\").setNumber(1);",
-            "    console.log(\"任務完全結束，設置eventCompleted=1\");",
-            "    ",
-            "    console.log(\"食物碗已填滿，交互階段完全結束\");",
-            "  }",
-            "}",
-            "",
-            "// 當計時器重置時，重置事件觸發狀態",
-            "if (counttime >= 60) {",
-            "  runtimeScene.getVariables().get(\"bowlEventTriggered\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"bowlInteractionActive\").setNumber(0);",
-            "  runtimeScene.getVariables().get(\"taskShown\").setNumber(0);",
-            "  if (runtimeScene.getVariables().has(\"taskCompleted\")) {",
-            "    runtimeScene.getVariables().get(\"taskCompleted\").setNumber(0);",
-            "  }",
-            "  ",
-            "  // 將Task物件和進度條設回完全透明",
-            "  if (taskObject) {",
-            "    taskObject.setOpacity(0);",
-            "  }",
-            "  if (progressBar) {",
-            "    progressBar.setOpacity(0);",
-            "  }",
-            "  ",
-            "  // 重置食物碗狀態",
-            "  runtimeScene.getVariables().get(\"bowlState\").setNumber(0);",
-            "  if (feedBowl) {",
-            "    feedBowl.setAnimationName(\"feed_boel0\");",
-            "  }",
-            "  ",
-            "  const newRandomTriggerTime = Math.floor(Math.random() * (60 - 10 + 1)) + 10;",
-            "  runtimeScene.getVariables().get(\"bowlRandomTriggerTime\").setNumber(newRandomTriggerTime);",
-            "  console.log(\"重設食物碗隨機事件，下次將在倒數 \" + newRandomTriggerTime + \" 秒時觸發\");",
-            "}",
-            "",
-            "// 根據交互狀態更改食物碗外觀（可選）",
-            "if (interactionActive === 1) {",
-            "  // 當可點擊時的視覺效果",
-            "  feedBowl.setOpacity(255);  // 完全不透明",
-            "} else {",
-            "  // 當不可點擊時的視覺效果",
-            "  feedBowl.setOpacity(150);  // 半透明",
-            "}"
-          ],
-          "parameterObjects": "feed_bowl",
-          "useStrict": true,
-          "eventsSheetExpanded": false
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": [
-            "// 獲取進度條物件",
-            "const progressBarObjects = runtimeScene.getObjects(\"進度條\");",
-            "const progressBar = progressBarObjects.length > 0 ? progressBarObjects[0] : null;",
-            "",
-            "if (progressBar) {",
-            "  // 獲取遊戲視窗寬度",
-            "  const gameWidth = runtimeScene.getGame().getGameResolutionWidth();",
-            "  ",
-            "  // 初始化進度值追蹤變數和上次更新時間（如果尚未初始化）",
-            "  if (!runtimeScene.getVariables().has(\"progressCurrentValue\")) {",
-            "    runtimeScene.getVariables().get(\"progressCurrentValue\").setNumber(100);",
-            "    runtimeScene.getVariables().get(\"lastProgressUpdateTime\").setNumber(Date.now());",
-            "    ",
-            "    // 保存進度條的最大寬度（例如：遊戲寬度的80%或其他合適的比例）",
-            "    const maxProgressWidth = gameWidth * 0.8; // 可以調整這個比例",
-            "    runtimeScene.getVariables().get(\"progressMaxWidth\").setNumber(maxProgressWidth);",
-            "    console.log(\"遊戲寬度: \" + gameWidth + \"px, 進度條最大寬度: \" + maxProgressWidth + \"px\");",
-            "  }",
-            "  ",
-            "  // 檢查是否有事件完成標記",
-            "  if (runtimeScene.getVariables().has(\"eventCompleted\") && ",
-            "      runtimeScene.getVariables().get(\"eventCompleted\").getAsNumber() === 1) {",
-            "    ",
-            "    // 重置進度條為滿值",
-            "    runtimeScene.getVariables().get(\"progressCurrentValue\").setNumber(100);",
-            "    runtimeScene.getVariables().get(\"lastProgressUpdateTime\").setNumber(Date.now());",
-            "    console.log(\"事件完成，進度條重置為100%\");",
-            "    ",
-            "    // 重置事件完成標記",
-            "    runtimeScene.getVariables().get(\"eventCompleted\").setNumber(0);",
-            "  }",
-            "  ",
-            "  // 獲取進度條最大寬度和當前進度值",
-            "  const maxWidth = runtimeScene.getVariables().get(\"progressMaxWidth\").getAsNumber();",
-            "  const currentValue = runtimeScene.getVariables().get(\"progressCurrentValue\").getAsNumber();",
-            "  ",
-            "  // 使用 Date.now() 而非 runtimeScene.getElapsedTime() 來計算時間差",
-            "  const currentTime = Date.now();",
-            "  const lastUpdateTime = runtimeScene.getVariables().get(\"lastProgressUpdateTime\").getAsNumber();",
-            "  const elapsedTimeInSeconds = (currentTime - lastUpdateTime) / 1000;",
-            "  ",
-            "  // 限制單次時間差，防止大幅度下降",
-            "  const limitedTimeDelta = Math.min(elapsedTimeInSeconds, 0.1);",
-            "  ",
-            "  // 計算新的進度值（每秒減少5%）",
-            "  const newValue = Math.max(0, currentValue - (5 * limitedTimeDelta));",
-            "  ",
-            "  // 更新進度值和最後更新時間",
-            "  runtimeScene.getVariables().get(\"progressCurrentValue\").setNumber(newValue);",
-            "  runtimeScene.getVariables().get(\"lastProgressUpdateTime\").setNumber(currentTime);",
-            "  ",
-            "  // 根據進度值計算新寬度",
-            "  const newWidth = (newValue / 100) * maxWidth;",
-            "  ",
-            "  // 設置進度條寬度",
-            "  progressBar.setWidth(newWidth);",
-            "  ",
-            "  // 調試輸出",
-            "  if (Math.floor(currentValue) !== Math.floor(newValue)) {",
-            "    // 只在整數值變化時輸出，避免過多日誌",
-            "    console.log(\"進度: \" + newValue.toFixed(1) + \"%, 寬度: \" + newWidth.toFixed(1) + \"px\");",
-            "  }",
-            "  ",
-            "  // 如果進度值降至0，可以執行額外操作",
-            "  if (newValue <= 0 && currentValue > 0) {",
-            "    console.log(\"進度條歸零!\");",
-            "    // 這裡可以添加進度條歸零時的額外處理代碼",
-            "  }",
-            "}",
-            "",
-            "// 監聽遊戲視窗大小變化（如果需要）",
-            "if (runtimeScene.getVariables().has(\"lastGameWidth\")) {",
-            "  const lastWidth = runtimeScene.getVariables().get(\"lastGameWidth\").getAsNumber();",
-            "  const currentWidth = runtimeScene.getGame().getGameResolutionWidth();",
-            "  ",
-            "  // 如果遊戲寬度變化，重新計算進度條最大寬度",
-            "  if (lastWidth !== currentWidth) {",
-            "    const newMaxWidth = currentWidth * 0.8; // 可以調整這個比例",
-            "    runtimeScene.getVariables().get(\"progressMaxWidth\").setNumber(newMaxWidth);",
-            "    ",
-            "    // 重新計算並應用當前寬度",
-            "    const currentValue = runtimeScene.getVariables().get(\"progressCurrentValue\").getAsNumber();",
-            "    const newWidth = (currentValue / 100) * newMaxWidth;",
-            "    if (progressBar) {",
-            "      progressBar.setWidth(newWidth);",
-            "    }",
-            "    console.log(\"遊戲視窗大小變化! 新寬度: \" + currentWidth + \"px, 進度條最大寬度: \" + newMaxWidth + \"px\");",
-            "  }",
-            "  ",
-            "  // 更新上次寬度",
-            "  runtimeScene.getVariables().get(\"lastGameWidth\").setNumber(currentWidth);",
-            "} else {",
-            "  // 初始化上次寬度變數",
-            "  runtimeScene.getVariables().get(\"lastGameWidth\").setNumber(runtimeScene.getGame().getGameResolutionWidth());",
-            "}"
-          ],
-          "parameterObjects": "進度條",
-          "useStrict": true,
-          "eventsSheetExpanded": false
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
