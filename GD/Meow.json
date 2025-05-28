@@ -2921,7 +2921,7 @@
       {
         "file": "assets/Flat Bar Red Fill Bar.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Flat Bar Red Fill Bar.png\",\"extension\":\".png\"}",
         "name": "assets\\Flat Bar Red Fill Bar.png",
         "smoothed": true,
         "userAdded": false
@@ -4929,7 +4929,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126345,
+        "zoomFactor": 0.4633111824514007,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16062,7 +16062,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.448197804541039,
+        "zoomFactor": 0.4633111824514013,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16102,19 +16102,7 @@
           "name": "結算",
           "objects": [
             {
-              "name": "重新來過按鈕"
-            },
-            {
-              "name": "分數"
-            },
-            {
-              "name": "退出按鈕"
-            },
-            {
               "name": "下一關按鈕"
-            },
-            {
-              "name": "結算背景"
             }
           ]
         }
@@ -16196,90 +16184,6 @@
           "x": 32,
           "y": -14,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 769,
-          "keepRatio": true,
-          "layer": "scored",
-          "name": "結算背景",
-          "persistentUuid": "6fe18ed3-6e81-416d-9770-5cc27f90efb5",
-          "width": 1360,
-          "x": 297,
-          "y": 140,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 112,
-          "keepRatio": true,
-          "layer": "scored",
-          "name": "下一關按鈕",
-          "persistentUuid": "db4aafb6-ef1e-432c-b0ea-9a4d3a60bb02",
-          "width": 361,
-          "x": 812,
-          "y": 672,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 106,
-          "keepRatio": true,
-          "layer": "scored",
-          "name": "退出按鈕",
-          "persistentUuid": "2fa0aa0a-9167-44f8-9054-f526ba0b90f0",
-          "width": 364,
-          "x": 466,
-          "y": 679,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "scored",
-          "name": "分數",
-          "persistentUuid": "edf09ed3-a74d-49a4-9c58-bb702c89d4c0",
-          "width": 0,
-          "x": 614,
-          "y": 361,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 118,
-          "keepRatio": true,
-          "layer": "scored",
-          "name": "重新來過按鈕",
-          "persistentUuid": "2a4cdb28-33da-4d5b-ace8-2cf44de6d684",
-          "width": 357,
-          "x": 1164,
-          "y": 670,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16553,9 +16457,45 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "scored",
+          "name": "Win",
+          "persistentUuid": "3c68b532-86e6-4134-b1a1-f73ecda26bdd",
+          "width": 0,
+          "x": 307,
+          "y": 146,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Win",
+          "type": "無標題擴展名2::我的物件",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {}
+        },
+        {
+          "assetStoreId": "",
+          "name": "Lose",
+          "type": "無標題擴展名::我的物件",
+          "variant": "Lose",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {}
+        },
         {
           "assetStoreId": "",
           "name": "返回紐",
@@ -17559,480 +17499,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "結算背景",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "WIN",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "工作區域 4 複本 4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 71,
-                            "y": 81
-                          },
-                          {
-                            "x": 1223,
-                            "y": 81
-                          },
-                          {
-                            "x": 1223,
-                            "y": 653
-                          },
-                          {
-                            "x": 71,
-                            "y": 653
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "LOSE",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\工作區域 4 複本 5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 71,
-                            "y": 81
-                          },
-                          {
-                            "x": 1223,
-                            "y": 81
-                          },
-                          {
-                            "x": 1223,
-                            "y": 653
-                          },
-                          {
-                            "x": 71,
-                            "y": 653
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "下一關按鈕",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {},
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11 複本5.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11 複本4.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "",
-              "font": "",
-              "textAlignment": "",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "",
-                "font": "",
-                "textAlignment": "",
-                "verticalTextAlignment": "top",
-                "characterSize": 20,
-                "color": "0;0;0"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11 複本6.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            }
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "退出按鈕",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {},
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11 複本.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "",
-              "font": "",
-              "textAlignment": "",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "",
-                "font": "",
-                "textAlignment": "",
-                "verticalTextAlignment": "top",
-                "characterSize": 20,
-                "color": "0;0;0"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域12.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            }
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "分數",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": " 19 複本",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "工作區域 19 複本 2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 122,
-                            "y": 28
-                          },
-                          {
-                            "x": 589,
-                            "y": 28
-                          },
-                          {
-                            "x": 589,
-                            "y": 161
-                          },
-                          {
-                            "x": 122,
-                            "y": 161
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "工作區域 19 複本.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 122,
-                            "y": 28
-                          },
-                          {
-                            "x": 589,
-                            "y": 28
-                          },
-                          {
-                            "x": 589,
-                            "y": 161
-                          },
-                          {
-                            "x": 122,
-                            "y": 161
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "工作區域20.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 122,
-                            "y": 28
-                          },
-                          {
-                            "x": 589,
-                            "y": 28
-                          },
-                          {
-                            "x": 589,
-                            "y": 161
-                          },
-                          {
-                            "x": 122,
-                            "y": 161
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "重新來過按鈕",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {},
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11 複本 5.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11 複本 4.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "",
-              "font": "",
-              "textAlignment": "",
-              "characterSize": 20,
-              "color": {
-                "b": 0,
-                "g": 0,
-                "r": 0
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "",
-                "font": "",
-                "textAlignment": "",
-                "verticalTextAlignment": "top",
-                "characterSize": 20,
-                "color": "0;0;0"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 32,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "工作區域 11 複本7.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 32
-            }
-          }
         },
         {
           "assetStoreId": "ebc9bc64e9525d8e827938e246f37b4398590f18a3444735dc50edbea0317f03",
@@ -24418,17 +23884,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
           "name": "progressBar",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -24763,11 +24218,12 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "assets\\Flat Bar Red Fill Bar",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -24817,6 +24273,17 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -24853,19 +24320,7 @@
             "objectName": "關卡背景"
           },
           {
-            "objectName": "結算背景"
-          },
-          {
-            "objectName": "下一關按鈕"
-          },
-          {
-            "objectName": "重新來過按鈕"
-          },
-          {
-            "objectName": "退出按鈕"
-          },
-          {
-            "objectName": "分數"
+            "objectName": "NewSprite3"
           },
           {
             "objectName": "jashn"
@@ -24901,13 +24356,16 @@
             "objectName": "progressBar"
           },
           {
-            "objectName": "NewSprite"
-          },
-          {
             "objectName": "NewSprite2"
           },
           {
             "objectName": "cat_teaser"
+          },
+          {
+            "objectName": "Lose"
+          },
+          {
+            "objectName": "Win"
           }
         ]
       },
@@ -25803,7 +25261,7 @@
             "  vars.get(\"bowlEventTriggered\").setNumber(0);",
             "  vars.get(\"bowlInteractionActive\").setNumber(0);",
             "  vars.get(\"taskShown\").setNumber(0);",
-            "  vars.get(\"bowlTaskDone\").setNumber(0); // ✅ 判斷任務是否已經加過分數",
+            "  vars.get(\"bowlTaskDone\").setNumber(0); // 判斷任務是否已經加過分數",
             "  const randomTriggerTime = 50; // 固定在倒數10秒時觸發",
             "  vars.get(\"bowlRandomTriggerTime\").setNumber(randomTriggerTime);",
             "  console.log(\"食物碗事件將在倒數 \" + randomTriggerTime + \" 秒時觸發\");",
@@ -25865,7 +25323,7 @@
             "    feedBowl.setAnimationName(\"feed_boel\" + nextState);",
             "    if (progressBar) vars.get(\"progressState\").setNumber(nextState);",
             "",
-            "    // ✅ 填滿時處理加分",
+            "    //  填滿時處理加分",
             "    if (nextState === 3) {",
             "      vars.get(\"completionTime\").setNumber(currentTime + 1000);",
             "      vars.get(\"taskCompleted\").setNumber(1);",
@@ -25877,7 +25335,7 @@
             "      if (vars.get(\"bowlTaskDone\").getAsNumber() === 0) {",
             "        vars.get(\"completedTasks\").add(1);",
             "        vars.get(\"bowlTaskDone\").setNumber(1);",
-            "        console.log(\"✅ 食物碗任務完成，任務進度 +1\");",
+            "        console.log(\"食物碗任務完成，任務進度 +1\");",
             "      }",
             "    }",
             "  } else {",
@@ -25893,7 +25351,7 @@
             "    vars.get(\"taskCompleted\").setNumber(0);",
             "    if (progressBar) progressBar.setOpacity(0);",
             "    vars.get(\"eventCompleted\").setNumber(1);",
-            "    console.log(\"✅ 食物碗任務完全結束\");",
+            "    console.log(\"食物碗任務完全結束\");",
             "  }",
             "}",
             "",
@@ -25915,7 +25373,7 @@
             "// 食物碗外觀",
             "feedBowl.setOpacity(interactionActive === 1 ? 255 : 150);",
             "",
-            "// ✅ 根據任務完成數切換動畫",
+            "// 根據任務完成數切換動畫",
             "if (progressAnimBar) {",
             "  const completed = vars.has(\"completedTasks\") ? vars.get(\"completedTasks\").getAsNumber() : 0;",
             "  if (completed === 0) {",
@@ -26195,8 +25653,9 @@
             "",
             "// === 初始化任務狀態 ===",
             "if (!vars.has(\"teaserTaskState\")) {",
-            "  vars.get(\"teaserTaskState\").setNumber(0); // 0=未開始, 1=靠近, 2=進行中, 3=完成",
+            "  vars.get(\"teaserTaskState\").setNumber(0); // 0=未開始, 1=等待點擊, 2=進行中, 3=完成",
             "  vars.get(\"teaserTaskStartTime\").setNumber(0);",
+            "  vars.get(\"teaserTaskDone\").setNumber(0); // 只加一次進度",
             "  task2.setOpacity(0);",
             "}",
             "",
@@ -26205,18 +25664,21 @@
             "  vars.get(\"teaserTaskState\").setNumber(1);",
             "  task2.setOpacity(255);",
             "  task2.setPosition(teaser.getX(), teaser.getY() - 40);",
-            "  console.log(\"🎯 逗貓棒任務觸發\");",
+            "  console.log(\"逗貓棒任務觸發\");",
             "}",
             "",
-            "// === 玩家靠近觸發任務 ===",
+            "// === 玩家點擊逗貓棒觸發任務 ===",
             "if (vars.get(\"teaserTaskState\").getAsNumber() === 1) {",
-            "  const dx = jashn.getX() - teaser.getX();",
-            "  const dy = jashn.getY() - teaser.getY();",
-            "  const distance = Math.sqrt(dx * dx + dy * dy);",
-            "  if (distance < 60) {",
+            "  const inputManager = runtimeScene.getGame().getInputManager();",
+            "  const mouseX = inputManager.getMouseX();",
+            "  const mouseY = inputManager.getMouseY();",
+            "  const isClicked = inputManager.isMouseButtonReleased(0);",
+            "  const isOnTeaser = teaser.isCollidingWithPoint(mouseX, mouseY);",
+            "",
+            "  if (isClicked && isOnTeaser) {",
             "    vars.get(\"teaserTaskState\").setNumber(2);",
             "    vars.get(\"teaserTaskStartTime\").setNumber(Date.now());",
-            "    console.log(\"🐾 玩家靠近逗貓棒，任務啟動\");",
+            "    console.log(\"🖱 玩家點擊逗貓棒，任務啟動\");",
             "  }",
             "}",
             "",
@@ -26224,16 +25686,17 @@
             "if (vars.get(\"teaserTaskState\").getAsNumber() === 2) {",
             "  const elapsed = Date.now() - vars.get(\"teaserTaskStartTime\").getAsNumber();",
             "",
-            "  // 搖擺",
+            "  // 搖擺角度",
             "  const angle = Math.sin(Date.now() / 200) * 20;",
             "  teaser.setAngle(angle);",
             "",
-            "  // 貓追蹤",
+            "  // 貓追蹤 play 點",
             "  const playX = teaser.getPointX(\"play\");",
             "  const playY = teaser.getPointY(\"play\");",
             "  const dx = playX - cat.getX();",
             "  const dy = playY - cat.getY();",
             "  const dist = Math.sqrt(dx * dx + dy * dy);",
+            "",
             "  if (dist > 2) {",
             "    const speed = 120 / 60;",
             "    cat.setAnimationName(\"walk\");",
@@ -26242,37 +25705,35 @@
             "    cat.flipX(dx < 0);",
             "  }",
             "",
-            "  // 結束條件",
+            "  // 結束條件：持續5秒後完成",
             "  if (elapsed >= 5000) {",
             "    vars.get(\"teaserTaskState\").setNumber(3);",
-            "    console.log(\"✅ 任務結束，5 秒完成\");",
+            "    console.log(\"任務結束，5 秒完成\");",
             "  }",
             "}",
-            "vars.get(\"completedTasks\").add(1);",
-            "// === 任務完成：恢復 teaser 初始狀態 ===",
+            "",
+            "// === 任務完成：停止搖擺 + 加分一次 + 隱藏提示 ===",
             "if (vars.get(\"teaserTaskState\").getAsNumber() === 3) {",
             "  // 停止搖擺",
             "  teaser.setAngle(0);",
             "",
-            "  // 恢復可見度",
-            "  if (teaser.getOpacity() !== 255) teaser.setOpacity(255);",
-            "",
-            "  // 回復位置",
+            "  // 恢復 teaser 初始位置",
             "  const originX = teaserVars.get(\"originalX\").getAsNumber();",
             "  const originY = teaserVars.get(\"originalY\").getAsNumber();",
             "  teaser.setPosition(originX, originY);",
+            "  teaser.setOpacity(255);",
             "",
             "  // 隱藏提示",
             "  task2.setOpacity(0);",
             "",
-            "  // ✅ ✅ ✅ 只加一次進度",
-            "  if (!vars.has(\"teaserTaskDone\") || vars.get(\"teaserTaskDone\").getAsNumber() === 0) {",
+            "  //  只加一次進度",
+            "  if (vars.get(\"teaserTaskDone\").getAsNumber() === 0) {",
             "    if (!vars.has(\"completedTasks\")) {",
             "      vars.get(\"completedTasks\").setNumber(0);",
             "    }",
             "    vars.get(\"completedTasks\").add(1);",
-            "    vars.get(\"teaserTaskDone\").setNumber(1); // 避免重複加分",
-            "    console.log(\"✅ 逗貓棒任務完成，加分成功！目前任務數 =\", vars.get(\"completedTasks\").getAsNumber());",
+            "    vars.get(\"teaserTaskDone\").setNumber(1);",
+            "    console.log(\" 逗貓棒任務完成，加分成功！目前進度 =\", vars.get(\"completedTasks\").getAsNumber());",
             "  }",
             "}",
             ""
@@ -26308,59 +25769,61 @@
             "",
             "if (!jashn || !cat || !task3) return;",
             "",
-            "// === 初始化（只執行一次）===",
+            "// 初始化",
             "if (!vars.has(\"petTaskState\")) {",
-            "  vars.get(\"petTaskState\").setNumber(0); // 0=未開始, 1=等待靠近, 2=播放動畫中, 3=完成",
+            "  vars.get(\"petTaskState\").setNumber(0); // 0=未開始, 1=等待點擊, 2=播放動畫中, 3=完成",
             "  vars.get(\"petTaskStartTime\").setNumber(0);",
             "  task3.setOpacity(0);",
             "  console.log(\"摸貓任務初始化完成\");",
             "}",
             "",
-            "// === 任務觸發條件（倒數時間小於等於 35 秒）===",
+            "// 任務觸發條件（倒數時間小於等於 35 秒）",
             "if (vars.get(\"petTaskState\").getAsNumber() === 0 && vars.get(\"counttime\").getAsNumber() <= 35) {",
             "  vars.get(\"petTaskState\").setNumber(1);",
             "  task3.setOpacity(255);",
-            "  console.log(\" 摸貓任務觸發\");",
+            "  console.log(\"摸貓任務觸發\");",
             "}",
             "",
-            "// === Task3 持續跟著貓（只要還可見）===",
+            "// Task3 持續跟著貓（只要還可見）",
             "if (task3.getOpacity() > 0) {",
             "  task3.setPosition(cat.getX(), cat.getY() - 40);",
             "}",
             "",
-            "// === 玩家靠近貓時觸發動畫（距離判定）===",
+            "// 點擊貓時觸發動畫",
             "if (vars.get(\"petTaskState\").getAsNumber() === 1) {",
-            "  const dx = jashn.getX() - cat.getX();",
-            "  const dy = jashn.getY() - cat.getY();",
-            "  const distance = Math.sqrt(dx * dx + dy * dy);",
+            "  const mouseX = runtimeScene.getGame().getInputManager().getMouseX();",
+            "  const mouseY = runtimeScene.getGame().getInputManager().getMouseY();",
+            "  const isClicked = runtimeScene.getGame().getInputManager().isMouseButtonReleased(0);",
+            "  const isOnCat = cat.isCollidingWithPoint(mouseX, mouseY);",
             "",
-            "  if (distance < 150) {",
+            "  if (isClicked && isOnCat) {",
             "    vars.get(\"petTaskState\").setNumber(2);",
             "    vars.get(\"petTaskStartTime\").setNumber(Date.now());",
             "    cat.setAnimationName(\"assup\");",
             "    task3.setOpacity(0);",
-            "    console.log(\"玩家靠近貓，播放 assup 動畫\");",
+            "    console.log(\"點擊貓咪，播放 assup 動畫\");",
             "  }",
             "}",
             "",
+            "// 動畫結束後恢復 idle 並加分",
             "if (vars.get(\"petTaskState\").getAsNumber() === 2) {",
             "  const elapsed = Date.now() - vars.get(\"petTaskStartTime\").getAsNumber();",
             "",
             "  if (elapsed >= 3000) {",
             "    vars.get(\"petTaskState\").setNumber(3);",
             "    cat.setAnimationName(\"idle\");",
-            "    console.log(\"✅ assup 動畫結束，貓恢復 idle，任務完成\");",
+            "    console.log(\"assup 動畫結束，貓恢復 idle，任務完成\");",
             "",
-            "    // ✅ 初始化 completedTasks 變數（如果還沒有）",
+            "    // 初始化 completedTasks 變數（如果還沒有）",
             "    if (!vars.has(\"completedTasks\")) {",
             "      vars.get(\"completedTasks\").setNumber(0);",
             "    }",
             "",
-            "    // ✅ 只加一次分數（避免重複加）",
+            "    // 只加一次分數",
             "    if (!vars.has(\"petTaskDone\") || vars.get(\"petTaskDone\").getAsNumber() === 0) {",
             "      vars.get(\"completedTasks\").add(1);",
-            "      vars.get(\"petTaskDone\").setNumber(1); // 標記已加分",
-            "      console.log(\"🎯 已加分：completedTasks = \" + vars.get(\"completedTasks\").getAsNumber());",
+            "      vars.get(\"petTaskDone\").setNumber(1);",
+            "      console.log(\"已加分：completedTasks = \" + vars.get(\"completedTasks\").getAsNumber());",
             "    }",
             "  }",
             "}",
@@ -26434,10 +25897,10 @@
             "  const task3Visible = task3.some(obj => obj.getOpacity() > 0);",
             "",
             "  if (task1Visible || task2Visible || task3Visible) {",
-            "    console.log(\"❌ 任務尚未完成 → 進入失敗畫面\");",
+            "    console.log(\"任務尚未完成 → 進入失敗畫面\");",
             "    runtimeScene.requestChange(\"結算畫面_LOSE\", false);",
             "  } else {",
-            "    console.log(\"🏆 所有任務完成 → 進入成功畫面\");",
+            "    console.log(\"所有任務完成 → 進入成功畫面\");",
             "    runtimeScene.requestChange(\"結算畫面_WIN\", false);",
             "  }",
             "}",
@@ -45186,6 +44649,2827 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "無標題擴展名2",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": [
+        {
+          "areaMaxX": 1344,
+          "areaMaxY": 765,
+          "areaMaxZ": 48,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "defaultName": "",
+          "description": "",
+          "fullName": "",
+          "isUsingLegacyInstancesRenderer": false,
+          "name": "我的物件",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "name": "重新來過按鈕",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "",
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ButtonFSM",
+                  "type": "ButtonStates::ButtonFSM",
+                  "ShouldCheckHovering": true,
+                  "State": "Idle",
+                  "TouchId": 0,
+                  "TouchIsInside": false,
+                  "MouseIsInside": false,
+                  "Index": 2.0247e-320
+                }
+              ],
+              "content": {},
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本 5.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Idle": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本 4.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "",
+                  "font": "",
+                  "textAlignment": "",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "",
+                    "font": "",
+                    "textAlignment": "",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 20,
+                    "color": "0;0;0"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本7.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                }
+              }
+            },
+            {
+              "assetStoreId": "",
+              "name": "退出按鈕",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "",
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ButtonFSM",
+                  "type": "ButtonStates::ButtonFSM",
+                  "ShouldCheckHovering": true,
+                  "State": "Idle",
+                  "TouchId": 0,
+                  "TouchIsInside": false,
+                  "MouseIsInside": false,
+                  "Index": 2.0247e-320
+                }
+              ],
+              "content": {},
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Idle": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "",
+                  "font": "",
+                  "textAlignment": "",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "",
+                    "font": "",
+                    "textAlignment": "",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 20,
+                    "color": "0;0;0"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域12.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                }
+              }
+            },
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "分數",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": " start2",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "12.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 122,
+                                "y": 32
+                              },
+                              {
+                                "x": 589,
+                                "y": 32
+                              },
+                              {
+                                "x": 589,
+                                "y": 165
+                              },
+                              {
+                                "x": 122,
+                                "y": 165
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": " start0",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "工作區域 19 複本 2.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 122,
+                                "y": 32
+                              },
+                              {
+                                "x": 589,
+                                "y": 32
+                              },
+                              {
+                                "x": 589,
+                                "y": 165
+                              },
+                              {
+                                "x": 122,
+                                "y": 165
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": " start1",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "0.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 122,
+                                "y": 32
+                              },
+                              {
+                                "x": 589,
+                                "y": 32
+                              },
+                              {
+                                "x": 589,
+                                "y": 165
+                              },
+                              {
+                                "x": 122,
+                                "y": 165
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "win",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "工作區域 4 複本 4.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 71,
+                                "y": 81
+                              },
+                              {
+                                "x": 1223,
+                                "y": 81
+                              },
+                              {
+                                "x": 1223,
+                                "y": 653
+                              },
+                              {
+                                "x": 71,
+                                "y": 653
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "name": "Lose",
+              "type": "無標題擴展名::我的物件",
+              "variant": "Lose",
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "content": {}
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Lose"
+              },
+              {
+                "objectName": "win"
+              },
+              {
+                "objectName": "分數"
+              },
+              {
+                "objectName": "退出按鈕"
+              },
+              {
+                "objectName": "重新來過按鈕"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": false,
+              "height": 0,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Lose",
+              "persistentUuid": "dcd4c88a-b34c-4faa-be48-4d86be00442e",
+              "width": 0,
+              "x": 5,
+              "y": 0,
+              "zOrder": 38,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 757,
+              "keepRatio": true,
+              "layer": "",
+              "name": "win",
+              "persistentUuid": "b2ff1f5f-d03f-4374-ad28-36445da2f7b4",
+              "width": 1336,
+              "x": 0,
+              "y": 5,
+              "zOrder": 39,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": false,
+              "height": 0,
+              "keepRatio": true,
+              "layer": "",
+              "name": "分數",
+              "persistentUuid": "7ec19891-5619-4469-8c64-d70de7e5c3db",
+              "width": 0,
+              "x": 331,
+              "y": 236,
+              "zOrder": 40,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 48,
+              "height": 97,
+              "keepRatio": true,
+              "layer": "",
+              "name": "退出按鈕",
+              "persistentUuid": "89e4c146-a7c1-492f-8d83-97650bf06789",
+              "width": 326,
+              "x": 259,
+              "y": 565,
+              "zOrder": 41,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 48,
+              "height": 97,
+              "keepRatio": true,
+              "layer": "",
+              "name": "重新來過按鈕",
+              "persistentUuid": "c6c60caa-a96f-451e-9cff-58136c517c00",
+              "width": 328,
+              "x": 789,
+              "y": 565,
+              "zOrder": 42,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            }
+          ],
+          "eventsFunctions": [],
+          "propertyDescriptors": [],
+          "variants": []
+        }
+      ]
+    },
+    {
+      "author": "",
+      "category": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "",
+      "name": "無標題擴展名",
+      "previewIconUrl": "",
+      "shortDescription": "",
+      "version": "",
+      "description": "",
+      "tags": [],
+      "authorIds": [],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": [
+        {
+          "areaMaxX": 1339,
+          "areaMaxY": 765,
+          "areaMaxZ": 48,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "defaultName": "",
+          "description": "",
+          "fullName": "",
+          "isUsingLegacyInstancesRenderer": false,
+          "name": "我的物件",
+          "objects": [
+            {
+              "assetStoreId": "",
+              "name": "Exit",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "",
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ButtonFSM",
+                  "type": "ButtonStates::ButtonFSM",
+                  "ShouldCheckHovering": true,
+                  "State": "Idle",
+                  "TouchId": 0,
+                  "TouchIsInside": false,
+                  "MouseIsInside": false,
+                  "Index": 2.0247e-320
+                }
+              ],
+              "content": {},
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Idle": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "",
+                  "font": "",
+                  "textAlignment": "",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "",
+                    "font": "",
+                    "textAlignment": "",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 20,
+                    "color": "0;0;0"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域12.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                }
+              }
+            },
+            {
+              "assetStoreId": "",
+              "name": "Replay",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "",
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "ButtonFSM",
+                  "type": "ButtonStates::ButtonFSM",
+                  "ShouldCheckHovering": true,
+                  "State": "Idle",
+                  "TouchId": 0,
+                  "TouchIsInside": false,
+                  "MouseIsInside": false,
+                  "Index": 2.0247e-320
+                }
+              ],
+              "content": {},
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本 5.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Idle": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本 4.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "",
+                  "font": "",
+                  "textAlignment": "",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "",
+                    "font": "",
+                    "textAlignment": "",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 20,
+                    "color": "0;0;0"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本7.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                }
+              }
+            },
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "Lose",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": "",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "lose.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 64,
+                                "y": 81
+                              },
+                              {
+                                "x": 1216,
+                                "y": 81
+                              },
+                              {
+                                "x": 1216,
+                                "y": 654
+                              },
+                              {
+                                "x": 64,
+                                "y": 654
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "name": "重新來過按鈕",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "",
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "content": {},
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本 5.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Idle": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本 4.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "",
+                  "font": "",
+                  "textAlignment": "",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "",
+                    "font": "",
+                    "textAlignment": "",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 20,
+                    "color": "0;0;0"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本7.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                }
+              }
+            },
+            {
+              "adaptCollisionMaskAutomatically": true,
+              "assetStoreId": "",
+              "name": "分數",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "animations": [
+                {
+                  "name": " 19 複本",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": true,
+                          "image": "工作區域 19 複本 2.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": [
+                            [
+                              {
+                                "x": 122,
+                                "y": 28
+                              },
+                              {
+                                "x": 589,
+                                "y": 28
+                              },
+                              {
+                                "x": 589,
+                                "y": 161
+                              },
+                              {
+                                "x": 122,
+                                "y": 161
+                              }
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "name": "退出按鈕",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "",
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "content": {},
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Idle": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "",
+                  "font": "",
+                  "textAlignment": "",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "",
+                    "font": "",
+                    "textAlignment": "",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 20,
+                    "color": "0;0;0"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域12.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                }
+              }
+            },
+            {
+              "assetStoreId": "",
+              "name": "下一關按鈕",
+              "type": "PanelSpriteButton::PanelSpriteButton",
+              "variant": "",
+              "variables": [],
+              "effects": [],
+              "behaviors": [],
+              "content": {},
+              "childrenContent": {
+                "Hovered": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本5.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Idle": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本4.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                },
+                "Label": {
+                  "bold": false,
+                  "italic": false,
+                  "smoothed": true,
+                  "underlined": false,
+                  "string": "",
+                  "font": "",
+                  "textAlignment": "",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "",
+                    "font": "",
+                    "textAlignment": "",
+                    "verticalTextAlignment": "top",
+                    "characterSize": 20,
+                    "color": "0;0;0"
+                  }
+                },
+                "Pressed": {
+                  "bottomMargin": 0,
+                  "height": 32,
+                  "leftMargin": 0,
+                  "rightMargin": 0,
+                  "texture": "工作區域 11 複本6.png",
+                  "tiled": false,
+                  "topMargin": 0,
+                  "width": 32
+                }
+              }
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "下一關按鈕"
+              },
+              {
+                "objectName": "退出按鈕"
+              },
+              {
+                "objectName": "分數"
+              },
+              {
+                "objectName": "重新來過按鈕"
+              },
+              {
+                "objectName": "Lose"
+              },
+              {
+                "objectName": "Replay"
+              },
+              {
+                "objectName": "Exit"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 48,
+              "height": 112,
+              "keepRatio": true,
+              "layer": "",
+              "name": "下一關按鈕",
+              "persistentUuid": "77ff4a8f-4b29-4648-a8de-04dd50b41f50",
+              "width": 361,
+              "x": 500,
+              "y": 526,
+              "zOrder": 8,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 48,
+              "height": 106,
+              "keepRatio": true,
+              "layer": "",
+              "name": "退出按鈕",
+              "persistentUuid": "c30ab9f0-70bc-47b4-b751-0fd31780866f",
+              "width": 364,
+              "x": 154,
+              "y": 533,
+              "zOrder": 9,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": false,
+              "height": 0,
+              "keepRatio": true,
+              "layer": "",
+              "name": "分數",
+              "persistentUuid": "efecfb4f-4609-4fb4-9c06-98d7a91d8963",
+              "width": 0,
+              "x": 302,
+              "y": 215,
+              "zOrder": 10,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 48,
+              "height": 118,
+              "keepRatio": true,
+              "layer": "",
+              "name": "重新來過按鈕",
+              "persistentUuid": "17002ff9-32e2-418d-a733-ec7dcab10e97",
+              "width": 357,
+              "x": 852,
+              "y": 524,
+              "zOrder": 11,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 765,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Lose",
+              "persistentUuid": "bdab5779-8fa1-4bc9-9629-04eae0e38cff",
+              "width": 1339,
+              "x": 0,
+              "y": 0,
+              "zOrder": 35,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 48,
+              "height": 110,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Replay",
+              "persistentUuid": "b469e6d9-4650-4ae5-9531-75103c4ee95d",
+              "width": 345,
+              "x": 745,
+              "y": 562,
+              "zOrder": 36,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 48,
+              "height": 104,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Exit",
+              "persistentUuid": "35f4bc7c-8ffa-4ef5-9459-efb5f815b336",
+              "width": 343,
+              "x": 277,
+              "y": 565,
+              "zOrder": 37,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": false,
+              "height": 0,
+              "keepRatio": true,
+              "layer": "",
+              "name": "分數",
+              "persistentUuid": "07459b2c-69a4-4e53-89f7-779092123115",
+              "width": 0,
+              "x": 318,
+              "y": 235,
+              "zOrder": 38,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            }
+          ],
+          "eventsFunctions": [],
+          "propertyDescriptors": [],
+          "variants": [
+            {
+              "areaMaxX": 1339,
+              "areaMaxY": 765,
+              "areaMaxZ": 48,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "Lose",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "name": "Exit",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "ButtonStates::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 2.0247e-320
+                    }
+                  ],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域12.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "Replay",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "ButtonStates::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 2.0247e-320
+                    }
+                  ],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 5.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 4.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本7.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "adaptCollisionMaskAutomatically": true,
+                  "assetStoreId": "",
+                  "name": "Lose",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "animations": [
+                    {
+                      "name": "",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": true,
+                              "image": "lose.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": [
+                                [
+                                  {
+                                    "x": 64,
+                                    "y": 81
+                                  },
+                                  {
+                                    "x": 1216,
+                                    "y": 81
+                                  },
+                                  {
+                                    "x": 1216,
+                                    "y": 654
+                                  },
+                                  {
+                                    "x": 64,
+                                    "y": 654
+                                  }
+                                ]
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "重新來過按鈕",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 5.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 4.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本7.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "adaptCollisionMaskAutomatically": true,
+                  "assetStoreId": "",
+                  "name": "分數",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "animations": [
+                    {
+                      "name": " 19 複本",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": true,
+                              "image": "工作區域 19 複本 2.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": [
+                                [
+                                  {
+                                    "x": 122,
+                                    "y": 28
+                                  },
+                                  {
+                                    "x": 589,
+                                    "y": 28
+                                  },
+                                  {
+                                    "x": 589,
+                                    "y": 161
+                                  },
+                                  {
+                                    "x": 122,
+                                    "y": 161
+                                  }
+                                ]
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "退出按鈕",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域12.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "下一關按鈕",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本5.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本4.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本6.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "下一關按鈕"
+                  },
+                  {
+                    "objectName": "退出按鈕"
+                  },
+                  {
+                    "objectName": "分數"
+                  },
+                  {
+                    "objectName": "重新來過按鈕"
+                  },
+                  {
+                    "objectName": "Lose"
+                  },
+                  {
+                    "objectName": "Replay"
+                  },
+                  {
+                    "objectName": "Exit"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 112,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "下一關按鈕",
+                  "persistentUuid": "77ff4a8f-4b29-4648-a8de-04dd50b41f50",
+                  "width": 361,
+                  "x": 500,
+                  "y": 526,
+                  "zOrder": 8,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 106,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "退出按鈕",
+                  "persistentUuid": "c30ab9f0-70bc-47b4-b751-0fd31780866f",
+                  "width": 364,
+                  "x": 154,
+                  "y": 533,
+                  "zOrder": 9,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "height": 0,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "分數",
+                  "persistentUuid": "efecfb4f-4609-4fb4-9c06-98d7a91d8963",
+                  "width": 0,
+                  "x": 302,
+                  "y": 215,
+                  "zOrder": 10,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 118,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "重新來過按鈕",
+                  "persistentUuid": "17002ff9-32e2-418d-a733-ec7dcab10e97",
+                  "width": 357,
+                  "x": 852,
+                  "y": 524,
+                  "zOrder": 11,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 765,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Lose",
+                  "persistentUuid": "bdab5779-8fa1-4bc9-9629-04eae0e38cff",
+                  "width": 1339,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 35,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 110,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Replay",
+                  "persistentUuid": "b469e6d9-4650-4ae5-9531-75103c4ee95d",
+                  "width": 345,
+                  "x": 745,
+                  "y": 562,
+                  "zOrder": 36,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 104,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Exit",
+                  "persistentUuid": "35f4bc7c-8ffa-4ef5-9459-efb5f815b336",
+                  "width": 343,
+                  "x": 277,
+                  "y": 565,
+                  "zOrder": 37,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "height": 0,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "分數",
+                  "persistentUuid": "07459b2c-69a4-4e53-89f7-779092123115",
+                  "width": 0,
+                  "x": 318,
+                  "y": 235,
+                  "zOrder": 38,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ]
+            },
+            {
+              "areaMaxX": 1339,
+              "areaMaxY": 765,
+              "areaMaxZ": 48,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "name": "Win",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "name": "Exit",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "ButtonStates::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 2.0247e-320
+                    }
+                  ],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域12.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "Replay",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "ButtonFSM",
+                      "type": "ButtonStates::ButtonFSM",
+                      "ShouldCheckHovering": true,
+                      "State": "Idle",
+                      "TouchId": 0,
+                      "TouchIsInside": false,
+                      "MouseIsInside": false,
+                      "Index": 2.0247e-320
+                    }
+                  ],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 5.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 4.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本7.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "adaptCollisionMaskAutomatically": true,
+                  "assetStoreId": "",
+                  "name": "Lose",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "animations": [
+                    {
+                      "name": "",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": true,
+                              "image": "lose.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": [
+                                [
+                                  {
+                                    "x": 64,
+                                    "y": 81
+                                  },
+                                  {
+                                    "x": 1216,
+                                    "y": 81
+                                  },
+                                  {
+                                    "x": 1216,
+                                    "y": 654
+                                  },
+                                  {
+                                    "x": 64,
+                                    "y": 654
+                                  }
+                                ]
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "重新來過按鈕",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 5.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本 4.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本7.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "adaptCollisionMaskAutomatically": true,
+                  "assetStoreId": "",
+                  "name": "分數",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "animations": [
+                    {
+                      "name": " 19 複本",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": true,
+                              "image": "工作區域 19 複本 2.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "centerPoint": {
+                                "automatic": true,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": [
+                                [
+                                  {
+                                    "x": 122,
+                                    "y": 28
+                                  },
+                                  {
+                                    "x": 589,
+                                    "y": 28
+                                  },
+                                  {
+                                    "x": 589,
+                                    "y": 161
+                                  },
+                                  {
+                                    "x": 122,
+                                    "y": 161
+                                  }
+                                ]
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "退出按鈕",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域12.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "下一關按鈕",
+                  "type": "PanelSpriteButton::PanelSpriteButton",
+                  "variant": "",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [],
+                  "content": {},
+                  "childrenContent": {
+                    "Hovered": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本5.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Idle": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本4.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    },
+                    "Label": {
+                      "bold": false,
+                      "italic": false,
+                      "smoothed": true,
+                      "underlined": false,
+                      "string": "",
+                      "font": "",
+                      "textAlignment": "",
+                      "characterSize": 20,
+                      "color": {
+                        "b": 0,
+                        "g": 0,
+                        "r": 0
+                      },
+                      "content": {
+                        "bold": false,
+                        "isOutlineEnabled": false,
+                        "isShadowEnabled": false,
+                        "italic": false,
+                        "outlineColor": "255;255;255",
+                        "outlineThickness": 2,
+                        "shadowAngle": 90,
+                        "shadowBlurRadius": 2,
+                        "shadowColor": "0;0;0",
+                        "shadowDistance": 4,
+                        "shadowOpacity": 127,
+                        "smoothed": true,
+                        "underlined": false,
+                        "text": "",
+                        "font": "",
+                        "textAlignment": "",
+                        "verticalTextAlignment": "top",
+                        "characterSize": 20,
+                        "color": "0;0;0"
+                      }
+                    },
+                    "Pressed": {
+                      "bottomMargin": 0,
+                      "height": 32,
+                      "leftMargin": 0,
+                      "rightMargin": 0,
+                      "texture": "工作區域 11 複本6.png",
+                      "tiled": false,
+                      "topMargin": 0,
+                      "width": 32
+                    }
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "下一關按鈕"
+                  },
+                  {
+                    "objectName": "退出按鈕"
+                  },
+                  {
+                    "objectName": "分數"
+                  },
+                  {
+                    "objectName": "重新來過按鈕"
+                  },
+                  {
+                    "objectName": "Lose"
+                  },
+                  {
+                    "objectName": "Replay"
+                  },
+                  {
+                    "objectName": "Exit"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 112,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "下一關按鈕",
+                  "persistentUuid": "77ff4a8f-4b29-4648-a8de-04dd50b41f50",
+                  "width": 361,
+                  "x": 500,
+                  "y": 526,
+                  "zOrder": 8,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 106,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "退出按鈕",
+                  "persistentUuid": "c30ab9f0-70bc-47b4-b751-0fd31780866f",
+                  "width": 364,
+                  "x": 154,
+                  "y": 533,
+                  "zOrder": 9,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "height": 0,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "分數",
+                  "persistentUuid": "efecfb4f-4609-4fb4-9c06-98d7a91d8963",
+                  "width": 0,
+                  "x": 302,
+                  "y": 215,
+                  "zOrder": 10,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 118,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "重新來過按鈕",
+                  "persistentUuid": "17002ff9-32e2-418d-a733-ec7dcab10e97",
+                  "width": 357,
+                  "x": 852,
+                  "y": 524,
+                  "zOrder": 11,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 765,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Lose",
+                  "persistentUuid": "bdab5779-8fa1-4bc9-9629-04eae0e38cff",
+                  "width": 1339,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 35,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 110,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Replay",
+                  "persistentUuid": "b469e6d9-4650-4ae5-9531-75103c4ee95d",
+                  "width": 345,
+                  "x": 745,
+                  "y": 562,
+                  "zOrder": 36,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 48,
+                  "height": 104,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Exit",
+                  "persistentUuid": "35f4bc7c-8ffa-4ef5-9459-efb5f815b336",
+                  "width": 343,
+                  "x": 277,
+                  "y": 565,
+                  "zOrder": 37,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": false,
+                  "height": 0,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "分數",
+                  "persistentUuid": "07459b2c-69a4-4e53-89f7-779092123115",
+                  "width": 0,
+                  "x": 318,
+                  "y": 235,
+                  "zOrder": 38,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "author": "",
       "category": "User interface",
