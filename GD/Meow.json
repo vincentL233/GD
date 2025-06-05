@@ -17359,7 +17359,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943858,
+        "zoomFactor": 0.31119749424452275,
         "windowMask": false
       },
       "objectsGroups": [
@@ -28411,6 +28411,26 @@
                 "",
                 "\"scored\""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                ""
+              ]
             }
           ]
         },
@@ -28502,7 +28522,7 @@
                     "settime",
                     "Text",
                     "=",
-                    "\"0\""
+                    "\"55\""
                   ]
                 }
               ]
@@ -28538,6 +28558,26 @@
                 "Animation",
                 "=",
                 "\"滿星\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
               ]
             }
           ]
@@ -28607,6 +28647,26 @@
                 "=",
                 "\"沒星\""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
             }
           ]
         },
@@ -28655,6 +28715,26 @@
                 "Animation",
                 "=",
                 "\"沒星\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
               ]
             }
           ]
@@ -28751,6 +28831,7 @@
           "comment": "食物碗"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -29249,10 +29330,35 @@
               "inlineCode": [
                 "const cat = runtimeScene.getObjects(\"cat\")[0];",
                 "if (!cat) return;",
-                "if (cat.getVariableNumber(cat.getVariables().get(\"walk\")) === 0) {",
-                "  return; // 如果貓正在執行任務，就跳出，不進行移動",
-                "}",
                 "",
+                "// 如果正在任務中就不執行自主移動",
+                "if (cat.getVariableNumber(cat.getVariables().get(\"walk\")) === 0) return;",
+                "",
+                "// 取得 teaser 資訊",
+                "const catTeaser = runtimeScene.getObjects(\"cat_teaser\")[0];",
+                "if (catTeaser && catTeaser.hasBehavior(\"Tween\") &&",
+                "    catTeaser.getBehavior(\"Tween\").isPlaying(\"sway\")) {",
+                "  // teaser 激活時跟隨 play point",
+                "  const playX = catTeaser.getPointX(\"play\");",
+                "  const playY = catTeaser.getPointY(\"play\");",
+                "",
+                "  const dx = playX - cat.getX();",
+                "  const dy = playY - cat.getY();",
+                "  const dist = Math.sqrt(dx * dx + dy * dy);",
+                "",
+                "  if (dist > 1) {",
+                "    const speed = 80 / 60;",
+                "    const vx = (dx / dist) * speed;",
+                "    const vy = (dy / dist) * speed;",
+                "",
+                "    cat.setAnimationName(\"walk\");",
+                "    cat.flipX(vx < 0);",
+                "    cat.setX(cat.getX() + vx);",
+                "    cat.setY(cat.getY() + vy);",
+                "  }",
+                "",
+                "  return; // teaser 任務優先處理，阻擋其他移動",
+                "}",
                 "",
                 "const vars = cat.getVariables();",
                 "",
@@ -29262,9 +29368,9 @@
                 "if (!vars.has(\"tick\")) vars.get(\"tick\").setNumber(new Date().getTime());",
                 "if (!vars.has(\"pause\")) vars.get(\"pause\").setNumber(0);",
                 "if (!vars.has(\"sleeping\")) vars.get(\"sleeping\").setNumber(0); ",
-                "if (!vars.has(\"moveTime\")) vars.get(\"moveTie\").setNumber(Math.random() * 3000 + 2000); // 2-5秒隨機移動時間",
-                "if (!vars.has(\"movePattern\")) vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3)); // 0=直線, 1=曲線, 2=隨機曲線",
-                "if (!vars.has(\"curveAngle\")) vars.get(\"curveAngle\").setNumber(0); // 用於曲線移動的角度",
+                "if (!vars.has(\"moveTime\")) vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
+                "if (!vars.has(\"movePattern\")) vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
+                "if (!vars.has(\"curveAngle\")) vars.get(\"curveAngle\").setNumber(0);",
                 "if (!vars.has(\"targetX\")) vars.get(\"targetX\").setNumber(cat.getX() + Math.random() * 200 - 100);",
                 "if (!vars.has(\"targetY\")) vars.get(\"targetY\").setNumber(cat.getY() + Math.random() * 100 - 50);",
                 "",
@@ -29282,83 +29388,73 @@
                 "const now = new Date().getTime();",
                 "const speed = 80 / 60;",
                 "const elapsedTime = now - lastTick;",
-                "if (runtimeScene.getVariables().get(\"catTaskTriggered\").getAsNumber() === 1 &&",
-                "    runtimeScene.getVariables().get(\"catTaskCompleted\").getAsNumber() === 1) {",
-                "  return; //  停止貓的移動",
+                "",
+                "if (",
+                "  runtimeScene.getVariables().get(\"catTaskTriggered\").getAsNumber() === 1 &&",
+                "  runtimeScene.getVariables().get(\"catTaskCompleted\").getAsNumber() === 1",
+                ") {",
+                "  return;",
                 "}",
-                "// 若正在睡覺",
+                "",
+                "// 睡覺階段",
                 "if (sleeping === 1) {",
                 "  cat.setAnimationName(\"getDown\");",
                 "  if (elapsedTime > 3000) {",
                 "    vars.get(\"sleeping\").setNumber(0);",
                 "    vars.get(\"pause\").setNumber(0);",
                 "    vars.get(\"tick\").setNumber(now);",
-                "    // 設定新的移動時間和模式",
                 "    vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
                 "    vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
-                "    // 設定新的目標點",
                 "    vars.get(\"targetX\").setNumber(cat.getX() + (Math.random() * 300 - 150));",
                 "    vars.get(\"targetY\").setNumber(cat.getY() + (Math.random() * 100 - 50));",
                 "  }",
                 "  return;",
                 "}",
                 "",
-                "// 若正在暫停（坐下）",
+                "// 坐下階段",
                 "if (paused === 1) {",
                 "  cat.setAnimationName(\"sitdown\");",
                 "  if (elapsedTime > 1000) {",
                 "    vars.get(\"pause\").setNumber(0);",
                 "    vars.get(\"tick\").setNumber(now);",
-                "    // 設定新的移動時間和模式",
                 "    vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
                 "    vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
-                "    // 設定新的目標點",
                 "    vars.get(\"targetX\").setNumber(cat.getX() + (Math.random() * 300 - 150));",
                 "    vars.get(\"targetY\").setNumber(cat.getY() + (Math.random() * 100 - 50));",
                 "  }",
                 "  return;",
                 "}",
                 "",
-                "// 檢查是否需要改變移動方式",
+                "// 改變移動方式",
                 "if (elapsedTime > moveTime) {",
                 "  const chance = Math.random();",
                 "  if (chance < 0.25) {",
-                "    // 25% 睡覺",
                 "    vars.get(\"sleeping\").setNumber(1);",
                 "    vars.get(\"tick\").setNumber(now);",
                 "    return;",
                 "  } else if (chance < 0.5) {",
-                "    // 25% 坐下",
                 "    vars.get(\"pause\").setNumber(1);",
                 "    vars.get(\"tick\").setNumber(now);",
                 "    return;",
                 "  } else {",
-                "    // 50% 選擇新的移動模式和方向",
-                "    movePattern = Math.floor(Math.random() * 3); // 0=直線, 1=曲線, 2=隨機曲線",
+                "    movePattern = Math.floor(Math.random() * 3);",
                 "    vars.get(\"movePattern\").setNumber(movePattern);",
-                "    ",
-                "    // 設定新的移動時間 - 更多變化",
-                "    vars.get(\"moveTime\").setNumber(Math.random() * 4000 + 1000); // 1-5秒",
-                "    ",
-                "    // 設定新的目標點 - 更遠的距離",
+                "    vars.get(\"moveTime\").setNumber(Math.random() * 4000 + 1000);",
                 "    targetX = cat.getX() + (Math.random() * 400 - 200);",
                 "    targetY = cat.getY() + (Math.random() * 150 - 75);",
                 "    vars.get(\"targetX\").setNumber(targetX);",
                 "    vars.get(\"targetY\").setNumber(targetY);",
-                "    ",
-                "    // 根據目標點計算初始速度向量",
+                "",
                 "    const dx = targetX - cat.getX();",
                 "    const dy = targetY - cat.getY();",
-                "    const dist = Math.sqrt(dx*dx + dy*dy);",
-                "    // 速度有隨機變化",
+                "    const dist = Math.sqrt(dx * dx + dy * dy);",
                 "    if (dist > 0) {",
-                "      vx = (dx / dist) * (Math.random() * 1 + 0.8);    ",
+                "      vx = (dx / dist) * (Math.random() * 1 + 0.8);",
                 "      vy = (dy / dist) * (Math.random() * 0.8 + 0.5);",
                 "    } else {",
                 "      vx = (Math.random() - 0.5) * 1.8;",
                 "      vy = (Math.random() - 0.5) * 1.2;",
                 "    }",
-                "    ",
                 "    vars.get(\"vx\").setNumber(vx);",
                 "    vars.get(\"vy\").setNumber(vy);",
                 "    vars.get(\"tick\").setNumber(now);",
@@ -29366,47 +29462,33 @@
                 "  }",
                 "}",
                 "",
-                "// 🐾 正常移動階段：播放走路動畫",
+                "// 自主移動中",
                 "cat.setAnimationName(\"walk\");",
                 "",
-                "// 根據不同移動模式更新位置",
                 "if (movePattern === 0) {",
-                "  // 直線移動 - 保持當前速度",
                 "  cat.flipX(vx < 0);",
                 "  cat.setX(cat.getX() + vx * speed);",
                 "  cat.setY(cat.getY() + vy * speed);",
                 "} else if (movePattern === 1) {",
-                "  // 曲線移動 - 沿著圓弧移動",
                 "  curveAngle += 0.05;",
                 "  vars.get(\"curveAngle\").setNumber(curveAngle);",
-                "  ",
-                "  // 基本移動方向",
                 "  let baseX = vx * speed;",
                 "  let baseY = vy * speed;",
-                "  ",
-                "  // 添加圓周運動分量",
                 "  let curveX = Math.cos(curveAngle) * speed * 0.5;",
                 "  let curveY = Math.sin(curveAngle) * speed * 0.5;",
-                "  ",
                 "  cat.flipX(baseX + curveX < 0);",
                 "  cat.setX(cat.getX() + baseX + curveX);",
                 "  cat.setY(cat.getY() + baseY + curveY);",
                 "} else {",
-                "  // 隨機曲線 - 添加隨機擾動",
                 "  curveAngle += 0.05;",
                 "  vars.get(\"curveAngle\").setNumber(curveAngle);",
-                "  ",
-                "  // 微調方向 - 添加小的隨機變化",
                 "  vx += (Math.random() - 0.5) * 0.1;",
                 "  vy += (Math.random() - 0.5) * 0.1;",
-                "  ",
-                "  // 限制最大速度",
                 "  const max = 1.8;",
                 "  vx = Math.max(-max, Math.min(max, vx));",
                 "  vy = Math.max(-max, Math.min(max, vy));",
                 "  vars.get(\"vx\").setNumber(vx);",
                 "  vars.get(\"vy\").setNumber(vy);",
-                "  ",
                 "  cat.flipX(vx < 0);",
                 "  cat.setX(cat.getX() + vx * speed);",
                 "  cat.setY(cat.getY() + vy * speed);",
@@ -29417,7 +29499,7 @@
                 "  vars.get(\"vx\").setNumber(Math.abs(vx) * (Math.random() * 0.5 + 0.8));",
                 "  vars.get(\"targetX\").setNumber(cat.getX() + Math.random() * 300 + 100);",
                 "}",
-                "if (cat.getX() >1820) {",
+                "if (cat.getX() > 1820) {",
                 "  vars.get(\"vx\").setNumber(-Math.abs(vx) * (Math.random() * 0.5 + 0.8));",
                 "  vars.get(\"targetX\").setNumber(cat.getX() - Math.random() * 300 - 100);",
                 "}",
@@ -29428,7 +29510,8 @@
                 "if (cat.getY() > 880) {",
                 "  vars.get(\"vy\").setNumber(-Math.abs(vy) * (Math.random() * 0.5 + 0.8));",
                 "  vars.get(\"targetY\").setNumber(cat.getY() - Math.random() * 50 - 20);",
-                "}"
+                "}",
+                ""
               ],
               "parameterObjects": "cat",
               "useStrict": true,
@@ -30225,7 +30308,6 @@
           "comment": "逗貓棒"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -30674,6 +30756,16 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat_teaser",
+                    "Tween",
+                    "no"
+                  ]
                 }
               ]
             }
@@ -30731,6 +30823,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
