@@ -3282,6 +3282,14 @@
         "name": "2025-01-28_介面設計_結算畫面_LOSE_Ver1.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/ start0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ start0.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5543,7 +5551,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988925,
+        "zoomFactor": 0.5290357402156889,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5844,14 +5852,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 338,
+          "height": 412,
           "keepRatio": true,
           "layer": "Layer",
           "name": "cat",
           "persistentUuid": "3ffb767d-538c-4f5a-975c-54684d02520c",
-          "width": 502,
-          "x": 846,
-          "y": 695,
+          "width": 576,
+          "x": 794,
+          "y": 698,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -5894,14 +5902,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 507,
+          "height": 621,
           "keepRatio": true,
           "layer": "Layer",
           "name": "jashn",
           "persistentUuid": "f929129d-b684-473d-8a2c-0a520797f01a",
-          "width": 240,
-          "x": 1300,
-          "y": 283,
+          "width": 276,
+          "x": 1219,
+          "y": 481,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -5934,8 +5942,8 @@
           "name": "cat_litter",
           "persistentUuid": "b40efe31-f805-46f5-b4a6-d42e96718b4a",
           "width": 242,
-          "x": 1666,
-          "y": 589,
+          "x": 1672,
+          "y": 616,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -5945,14 +5953,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 98,
+          "height": 146,
           "keepRatio": true,
           "layer": "Layer",
           "name": "Task",
           "persistentUuid": "4022b242-1b2b-410a-8b8d-8f8440699f89",
-          "width": 110,
+          "width": 138,
           "x": 206,
-          "y": 515,
+          "y": 467,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -5962,14 +5970,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 226,
+          "height": 267,
           "keepRatio": true,
           "layer": "Layer",
           "name": "任務完成進度條",
           "persistentUuid": "22eaf34e-d487-4c7a-ac4d-0c9d246f445c",
-          "width": 108,
+          "width": 117,
           "x": 26,
-          "y": 382,
+          "y": 341,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -5979,14 +5987,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 196,
+          "height": 244,
           "keepRatio": true,
           "layer": "Layer",
           "name": "任務完成進度條2",
           "persistentUuid": "c7a49e4d-0fe3-4a4b-a0a5-59472da578d7",
-          "width": 94,
+          "width": 115,
           "x": 561,
-          "y": 464,
+          "y": 416,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -5996,14 +6004,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 231,
+          "height": 238,
           "keepRatio": true,
           "layer": "Layer",
           "name": "任務完成進度條3",
           "persistentUuid": "d29228e8-0b08-4c7e-8e88-649b9baa5059",
-          "width": 96,
-          "x": 1601,
-          "y": 404,
+          "width": 112,
+          "x": 1607,
+          "y": 418,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -6013,14 +6021,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 135,
+          "height": 167,
           "keepRatio": true,
           "layer": "Layer",
           "name": "Task2",
           "persistentUuid": "500787ca-4382-4b08-a36b-a860db0a0239",
-          "width": 122,
-          "x": 946,
-          "y": 503,
+          "width": 142,
+          "x": 896,
+          "y": 482,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -6036,8 +6044,8 @@
           "name": "Task3",
           "persistentUuid": "1e00dff4-abee-4a46-b7c2-5216eb1b51ac",
           "width": 130,
-          "x": 1798,
-          "y": 495,
+          "x": 1803,
+          "y": 528,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -15152,11 +15160,17 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Jason_idle_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "foot",
+                          "x": 315.5,
+                          "y": 1513
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 439.5,
+                        "y": 683.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15188,11 +15202,17 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Jason_idle_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "foot",
+                          "x": 315.5,
+                          "y": 1513
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 439.5,
+                        "y": 683.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15236,11 +15256,17 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Jason_walk_1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "foot",
+                          "x": 457,
+                          "y": 1537.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 439.5,
+                        "y": 683.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15272,11 +15298,17 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Jason_walk_2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "foot",
+                          "x": 381.5,
+                          "y": 1321.5
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 439.5,
+                        "y": 683.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15308,11 +15340,17 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Jason_walk_3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "foot",
+                          "x": 325.5,
+                          "y": 1476
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 439.5,
+                        "y": 683.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15344,11 +15382,17 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Jason_walk_4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "foot",
+                          "x": 315.5,
+                          "y": 1513
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 439.5,
+                        "y": 683.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -15380,11 +15424,17 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Jason_walk_5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "foot",
+                          "x": 526,
+                          "y": 1450
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 439.5,
+                        "y": 683.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16819,6 +16869,16 @@
                 "ButtonFSM",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "下一關按鈕",
+                "ButtonFSM",
+                ""
+              ]
             }
           ]
         },
@@ -16857,7 +16917,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -16873,7 +16932,7 @@
                   "parameters": [
                     "進度條",
                     ">=",
-                    "20",
+                    "50",
                     ""
                   ]
                 },
@@ -16885,7 +16944,7 @@
                     "settime",
                     "Text",
                     "=",
-                    "\"55\""
+                    "\"0\""
                   ]
                 }
               ]
@@ -16920,7 +16979,7 @@
                 "分數",
                 "Animation",
                 "=",
-                "\"滿星\""
+                "\" start2\""
               ]
             },
             {
@@ -16946,7 +17005,94 @@
           ]
         },
         {
-          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "進度條",
+                    ">=",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "settime",
+                    "Text",
+                    "=",
+                    "\"0\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "結算背景",
+                "\"scored\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "結算背景",
+                "Animation",
+                "=",
+                "\"WIN\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "分數",
+                "Animation",
+                "=",
+                "\" start1\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -17009,7 +17155,7 @@
                 "分數",
                 "Animation",
                 "=",
-                "\"沒星\""
+                "\" start0\""
               ]
             },
             {
@@ -17035,7 +17181,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -17079,7 +17224,7 @@
                 "分數",
                 "Animation",
                 "=",
-                "\"沒星\""
+                "\" start0\""
               ]
             },
             {
@@ -17222,6 +17367,7 @@
           "comment": "食物碗"
         },
         {
+          "disabled": true,
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -18177,6 +18323,7 @@
           "comment": "貓移動方式"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -18359,11 +18506,11 @@
                 "  vars.get(\"vx\").setNumber(-Math.abs(vx) * (Math.random() * 0.5 + 0.8));",
                 "  vars.get(\"targetX\").setNumber(cat.getX() - Math.random() * 300 - 100);",
                 "}",
-                "if (cat.getY() < 760) {",
+                "if (cat.getY() < 735) {",
                 "  vars.get(\"vy\").setNumber(Math.abs(vy) * (Math.random() * 0.5 + 0.8));",
                 "  vars.get(\"targetY\").setNumber(cat.getY() + Math.random() * 50 + 20);",
                 "}",
-                "if (cat.getY() > 880) {",
+                "if (cat.getY() > 900) {",
                 "  vars.get(\"vy\").setNumber(-Math.abs(vy) * (Math.random() * 0.5 + 0.8));",
                 "  vars.get(\"targetY\").setNumber(cat.getY() - Math.random() * 50 - 20);",
                 "}",
@@ -19164,6 +19311,7 @@
           "comment": "逗貓棒"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -21573,7 +21721,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "沒星",
+              "name": "star0",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -21621,7 +21769,7 @@
               ]
             },
             {
-              "name": "滿星",
+              "name": "star2",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -21630,7 +21778,55 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\工作區域20.png",
+                      "image": "assets\\ start0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 122,
+                            "y": 28
+                          },
+                          {
+                            "x": 589,
+                            "y": 28
+                          },
+                          {
+                            "x": 589,
+                            "y": 161
+                          },
+                          {
+                            "x": 122,
+                            "y": 161
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "star3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31014,7 +31210,7 @@
                   "parameters": [
                     "進度條",
                     ">=",
-                    "20",
+                    "70",
                     ""
                   ]
                 },
@@ -31061,7 +31257,7 @@
                 "分數",
                 "Animation",
                 "=",
-                "\"滿星\""
+                "\"star3\""
               ]
             },
             {
@@ -31083,6 +31279,116 @@
                 "ButtonFSM",
                 "yes"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "cat",
+                "walk",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "進度條",
+                    ">=",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "settime",
+                    "Text",
+                    "=",
+                    "\"0\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "結算背景",
+                "\"scored\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "結算背景",
+                "Animation",
+                "=",
+                "\"WIN\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "分數",
+                "Animation",
+                "=",
+                "\"star2\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "cat",
+                "walk",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -31102,7 +31408,7 @@
                   "parameters": [
                     "進度條",
                     "<",
-                    "20",
+                    "50",
                     ""
                   ]
                 },
@@ -31149,7 +31455,7 @@
                 "分數",
                 "Animation",
                 "=",
-                "\"沒星\""
+                "\"star0\""
               ]
             },
             {
@@ -31170,6 +31476,17 @@
                 "退出按鈕",
                 "ButtonFSM",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "cat",
+                "walk",
+                "=",
+                "0"
               ]
             }
           ]
@@ -31218,7 +31535,7 @@
                 "分數",
                 "Animation",
                 "=",
-                "\"沒星\""
+                "\"star0\""
               ]
             },
             {
@@ -31239,6 +31556,26 @@
                 "退出按鈕",
                 "ButtonFSM",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "cat",
+                "walk",
+                "=",
+                "0"
               ]
             }
           ]
@@ -31307,7 +31644,7 @@
               "parameters": [
                 "進度條",
                 "-",
-                "0.5",
+                "1",
                 ""
               ]
             },
@@ -31381,6 +31718,28 @@
                         "=",
                         "\"35\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"25\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"15\""
+                      ]
                     }
                   ]
                 }
@@ -31421,6 +31780,112 @@
                     "feed_bowl",
                     "ButtonFSM",
                     "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"50\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"40\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"30\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"20\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"10\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Task"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Task",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -32036,7 +32501,6 @@
           "comment": "jashn移動方式"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -32174,7 +32638,29 @@
                         "settime",
                         "Text",
                         "=",
+                        "\"40\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
                         "\"30\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"20\""
                       ]
                     },
                     {
@@ -32227,6 +32713,112 @@
                     "cat",
                     "ButtonFSM",
                     "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"45\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"35\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"25\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"15\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"5\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Task2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Task2",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "cat",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -32812,7 +33404,6 @@
           "comment": "逗貓棒"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -32834,7 +33425,18 @@
                         "settime",
                         "Text",
                         "=",
-                        "\"40\""
+                        "\"45\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"35\""
                       ]
                     },
                     {
@@ -32857,6 +33459,17 @@
                         "Text",
                         "=",
                         "\"15\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"5\""
                       ]
                     }
                   ]
@@ -32907,12 +33520,96 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"40\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"30\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"20\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Task3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Task3",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "cat_teaser",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat_teaser",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "Distance"
                   },
                   "parameters": [
                     "cat",
                     "cat_teaser",
-                    "500",
+                    "700",
                     ""
                   ]
                 },
