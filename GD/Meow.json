@@ -3274,6 +3274,14 @@
         "name": "assets\\工作區域20.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "2025-01-28_介面設計_結算畫面_LOSE_Ver1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "2025-01-28_介面設計_結算畫面_LOSE_Ver1.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5535,7 +5543,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126357,
+        "zoomFactor": 0.6040838749988925,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5584,7 +5592,7 @@
               "name": "下一關按鈕"
             },
             {
-              "name": "win"
+              "name": "結算背景"
             }
           ]
         }
@@ -5597,6 +5605,16 @@
         },
         {
           "name": "feedbowlcount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "teasercount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "catcount",
           "type": "number",
           "value": 0
         }
@@ -5677,7 +5695,7 @@
           "height": 769,
           "keepRatio": true,
           "layer": "scored",
-          "name": "win",
+          "name": "結算背景",
           "persistentUuid": "6fe18ed3-6e81-416d-9770-5cc27f90efb5",
           "width": 1360,
           "x": 296,
@@ -5953,6 +5971,74 @@
           "x": 26,
           "y": 382,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 196,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "任務完成進度條2",
+          "persistentUuid": "c7a49e4d-0fe3-4a4b-a0a5-59472da578d7",
+          "width": 94,
+          "x": 561,
+          "y": 464,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 231,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "任務完成進度條3",
+          "persistentUuid": "d29228e8-0b08-4c7e-8e88-649b9baa5059",
+          "width": 96,
+          "x": 1601,
+          "y": 404,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 135,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "Task2",
+          "persistentUuid": "500787ca-4382-4b08-a36b-a860db0a0239",
+          "width": 122,
+          "x": 946,
+          "y": 503,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 124,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "Task3",
+          "persistentUuid": "1e00dff4-abee-4a46-b7c2-5216eb1b51ac",
+          "width": 130,
+          "x": 1798,
+          "y": 495,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6884,7 +6970,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "win",
+          "name": "結算背景",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6892,7 +6978,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "WIN",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6934,10 +7020,22 @@
                           }
                         ]
                       ]
-                    },
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LOSE",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "工作區域 4 複本 5.png",
+                      "image": "lose.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6984,7 +7082,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Hovered": {
@@ -7062,7 +7171,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Hovered": {
@@ -7297,7 +7417,18 @@
           "variant": "",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "content": {},
           "childrenContent": {
             "Hovered": {
@@ -7549,14 +7680,46 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "direction",
+              "name": "walk",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "walktimer",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "catcount",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
+              "name": "ButtonAnimationName",
+              "type": "ButtonStates::ButtonAnimationName",
+              "Animation": "Animation",
+              "ButtonFSM": "ButtonFSM",
+              "IdleAnimationName": "Idle",
+              "FocusedAnimationName": "Focused",
+              "PressedAnimationName": "Pressed"
+            },
+            {
+              "isFolded": true,
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "isFolded": true,
               "name": "LinkPathFinding",
               "type": "LinkTools::LinkPathFinding",
               "Acceleration": 400,
@@ -7571,27 +7734,6 @@
               "Speed": 2.0247e-320,
               "IsAtNode": false,
               "NextNodeAngle": 2.0247e-320
-            },
-            {
-              "isFolded": true,
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "gravity": 0,
-              "jumpSpeed": 0,
-              "jumpSustainTime": 0,
-              "xGrabTolerance": 0,
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": false,
-              "deceleration": 1500,
-              "ignoreDefaultControls": false,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 0,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "yGrabOffset": 0
             }
           ],
           "animations": [
@@ -15345,7 +15487,18 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -15797,67 +15950,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "貓砂鏟",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "貓砂鏟.png.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 73,
-                            "y": 66
-                          },
-                          {
-                            "x": 454,
-                            "y": 66
-                          },
-                          {
-                            "x": 454,
-                            "y": 449
-                          },
-                          {
-                            "x": 73,
-                            "y": 449
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "任務完成進度條2",
+          "name": "任務完成進度條3",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16109,7 +16202,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "任務完成進度條1",
+          "name": "任務完成進度條2",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16396,7 +16489,7 @@
             "objectName": "關卡背景"
           },
           {
-            "objectName": "win"
+            "objectName": "結算背景"
           },
           {
             "objectName": "下一關按鈕"
@@ -16444,16 +16537,13 @@
             "objectName": "任務完成進度條"
           },
           {
-            "objectName": "任務完成進度條1"
-          },
-          {
             "objectName": "任務完成進度條2"
           },
           {
-            "objectName": "TransparentButtonWithWhiteYellowBorder"
+            "objectName": "任務完成進度條3"
           },
           {
-            "objectName": "貓砂鏟"
+            "objectName": "TransparentButtonWithWhiteYellowBorder"
           }
         ]
       },
@@ -16469,6 +16559,18 @@
             "textR": 0
           },
           "comment": "遊戲初始化"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": ""
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -16549,7 +16651,39 @@
                 "value": "Cache"
               },
               "parameters": [
+                "Task2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Task3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
                 "任務完成進度條"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "任務完成進度條2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "任務完成進度條3"
               ]
             },
             {
@@ -16566,7 +16700,43 @@
                 "value": "ChangeLayer"
               },
               "parameters": [
+                "任務完成進度條3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "任務完成進度條3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
                 "Task",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Task2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeLayer"
+              },
+              "parameters": [
+                "Task3",
                 ""
               ]
             },
@@ -16582,12 +16752,71 @@
             },
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "cat",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "cat_litter",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
               },
               "parameters": [
                 "進度條",
                 "=",
                 "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "cat_litter",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"scored\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
                 ""
               ]
             }
@@ -16623,6 +16852,254 @@
                 "yes",
                 "50",
                 "100"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "進度條",
+                    ">=",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "settime",
+                    "Text",
+                    "=",
+                    "\"55\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "結算背景",
+                "\"scored\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "結算背景",
+                "Animation",
+                "=",
+                "\"WIN\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "分數",
+                "Animation",
+                "=",
+                "\"滿星\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+                  },
+                  "parameters": [
+                    "進度條",
+                    "<",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "settime",
+                    "Text",
+                    "=",
+                    "\"0\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "結算背景",
+                "\"scored\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "結算背景",
+                "Animation",
+                "=",
+                "\"LOSE\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "分數",
+                "Animation",
+                "=",
+                "\"沒星\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "進度條",
+                "=",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "結算背景",
+                "\"scored\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "結算背景",
+                "Animation",
+                "=",
+                "\"LOSE\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "分數",
+                "Animation",
+                "=",
+                "\"沒星\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "重新來過按鈕",
+                "ButtonFSM",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                "yes"
               ]
             }
           ]
@@ -17209,6 +17686,2004 @@
               ]
             }
           ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"55\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"45\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"35\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Task",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Task",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "jashn",
+                    "feed_bowl",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Task"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    "\"Layer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    "Animation",
+                    "=",
+                    "\"bar1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    "Animation",
+                    "=",
+                    "\"bar2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    "Animation",
+                    "=",
+                    "\"bar3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    "Animation",
+                    "=",
+                    "\"bar4\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    "Animation",
+                    "=",
+                    "\"bar5\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "Animation",
+                    "=",
+                    "\"feed_boel3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "進度條",
+                    "+",
+                    "90",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    ">=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "任務完成進度條"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "任務完成進度條",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "feedbowlcount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "feed_bowl",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "貓移動方式"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const cat = runtimeScene.getObjects(\"cat\")[0];",
+                "if (!cat) return;",
+                "",
+                "// 如果正在任務中就不執行自主移動",
+                "if (cat.getVariableNumber(cat.getVariables().get(\"walk\")) === 0) return;",
+                "",
+                "// 取得 teaser 資訊",
+                "const catTeaser = runtimeScene.getObjects(\"cat_teaser\")[0];",
+                "if (catTeaser && catTeaser.hasBehavior(\"Tween\") &&",
+                "    catTeaser.getBehavior(\"Tween\").isPlaying(\"sway\")) {",
+                "  // teaser 激活時跟隨 play point",
+                "  const playX = catTeaser.getPointX(\"play\");",
+                "  const playY = catTeaser.getPointY(\"play\");",
+                "",
+                "  const dx = playX - cat.getX();",
+                "  const dy = playY - cat.getY();",
+                "  const dist = Math.sqrt(dx * dx + dy * dy);",
+                "",
+                "  if (dist > 1) {",
+                "    const speed = 80 / 60;",
+                "    const vx = (dx / dist) * speed;",
+                "    const vy = (dy / dist) * speed;",
+                "",
+                "    cat.setAnimationName(\"walk\");",
+                "    cat.flipX(vx < 0);",
+                "    cat.setX(cat.getX() + vx);",
+                "    cat.setY(cat.getY() + vy);",
+                "  }",
+                "",
+                "  return; // teaser 任務優先處理，阻擋其他移動",
+                "}",
+                "",
+                "const vars = cat.getVariables();",
+                "",
+                "// 初始化變數",
+                "if (!vars.has(\"vx\")) vars.get(\"vx\").setNumber((Math.random() - 0.5) * 2);",
+                "if (!vars.has(\"vy\")) vars.get(\"vy\").setNumber((Math.random() - 0.5) * 2);",
+                "if (!vars.has(\"tick\")) vars.get(\"tick\").setNumber(new Date().getTime());",
+                "if (!vars.has(\"pause\")) vars.get(\"pause\").setNumber(0);",
+                "if (!vars.has(\"sleeping\")) vars.get(\"sleeping\").setNumber(0); ",
+                "if (!vars.has(\"moveTime\")) vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
+                "if (!vars.has(\"movePattern\")) vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
+                "if (!vars.has(\"curveAngle\")) vars.get(\"curveAngle\").setNumber(0);",
+                "if (!vars.has(\"targetX\")) vars.get(\"targetX\").setNumber(cat.getX() + Math.random() * 200 - 100);",
+                "if (!vars.has(\"targetY\")) vars.get(\"targetY\").setNumber(cat.getY() + Math.random() * 100 - 50);",
+                "",
+                "let vx = vars.get(\"vx\").getAsNumber();",
+                "let vy = vars.get(\"vy\").getAsNumber();",
+                "let paused = vars.get(\"pause\").getAsNumber();",
+                "let sleeping = vars.get(\"sleeping\").getAsNumber();",
+                "let moveTime = vars.get(\"moveTime\").getAsNumber();",
+                "let movePattern = vars.get(\"movePattern\").getAsNumber();",
+                "let curveAngle = vars.get(\"curveAngle\").getAsNumber();",
+                "let targetX = vars.get(\"targetX\").getAsNumber();",
+                "let targetY = vars.get(\"targetY\").getAsNumber();",
+                "",
+                "const lastTick = vars.get(\"tick\").getAsNumber();",
+                "const now = new Date().getTime();",
+                "const speed = 80 / 60;",
+                "const elapsedTime = now - lastTick;",
+                "",
+                "if (",
+                "  runtimeScene.getVariables().get(\"catTaskTriggered\").getAsNumber() === 1 &&",
+                "  runtimeScene.getVariables().get(\"catTaskCompleted\").getAsNumber() === 1",
+                ") {",
+                "  return;",
+                "}",
+                "",
+                "// 睡覺階段",
+                "if (sleeping === 1) {",
+                "  cat.setAnimationName(\"getDown\");",
+                "  if (elapsedTime > 3000) {",
+                "    vars.get(\"sleeping\").setNumber(0);",
+                "    vars.get(\"pause\").setNumber(0);",
+                "    vars.get(\"tick\").setNumber(now);",
+                "    vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
+                "    vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
+                "    vars.get(\"targetX\").setNumber(cat.getX() + (Math.random() * 300 - 150));",
+                "    vars.get(\"targetY\").setNumber(cat.getY() + (Math.random() * 100 - 50));",
+                "  }",
+                "  return;",
+                "}",
+                "",
+                "// 坐下階段",
+                "if (paused === 1) {",
+                "  cat.setAnimationName(\"sitdown\");",
+                "  if (elapsedTime > 1000) {",
+                "    vars.get(\"pause\").setNumber(0);",
+                "    vars.get(\"tick\").setNumber(now);",
+                "    vars.get(\"moveTime\").setNumber(Math.random() * 3000 + 2000);",
+                "    vars.get(\"movePattern\").setNumber(Math.floor(Math.random() * 3));",
+                "    vars.get(\"targetX\").setNumber(cat.getX() + (Math.random() * 300 - 150));",
+                "    vars.get(\"targetY\").setNumber(cat.getY() + (Math.random() * 100 - 50));",
+                "  }",
+                "  return;",
+                "}",
+                "",
+                "// 改變移動方式",
+                "if (elapsedTime > moveTime) {",
+                "  const chance = Math.random();",
+                "  if (chance < 0.25) {",
+                "    vars.get(\"sleeping\").setNumber(1);",
+                "    vars.get(\"tick\").setNumber(now);",
+                "    return;",
+                "  } else if (chance < 0.5) {",
+                "    vars.get(\"pause\").setNumber(1);",
+                "    vars.get(\"tick\").setNumber(now);",
+                "    return;",
+                "  } else {",
+                "    movePattern = Math.floor(Math.random() * 3);",
+                "    vars.get(\"movePattern\").setNumber(movePattern);",
+                "    vars.get(\"moveTime\").setNumber(Math.random() * 4000 + 1000);",
+                "    targetX = cat.getX() + (Math.random() * 400 - 200);",
+                "    targetY = cat.getY() + (Math.random() * 150 - 75);",
+                "    vars.get(\"targetX\").setNumber(targetX);",
+                "    vars.get(\"targetY\").setNumber(targetY);",
+                "",
+                "    const dx = targetX - cat.getX();",
+                "    const dy = targetY - cat.getY();",
+                "    const dist = Math.sqrt(dx * dx + dy * dy);",
+                "    if (dist > 0) {",
+                "      vx = (dx / dist) * (Math.random() * 1 + 0.8);",
+                "      vy = (dy / dist) * (Math.random() * 0.8 + 0.5);",
+                "    } else {",
+                "      vx = (Math.random() - 0.5) * 1.8;",
+                "      vy = (Math.random() - 0.5) * 1.2;",
+                "    }",
+                "    vars.get(\"vx\").setNumber(vx);",
+                "    vars.get(\"vy\").setNumber(vy);",
+                "    vars.get(\"tick\").setNumber(now);",
+                "    vars.get(\"curveAngle\").setNumber(0);",
+                "  }",
+                "}",
+                "",
+                "// 自主移動中",
+                "cat.setAnimationName(\"walk\");",
+                "",
+                "if (movePattern === 0) {",
+                "  cat.flipX(vx < 0);",
+                "  cat.setX(cat.getX() + vx * speed);",
+                "  cat.setY(cat.getY() + vy * speed);",
+                "} else if (movePattern === 1) {",
+                "  curveAngle += 0.05;",
+                "  vars.get(\"curveAngle\").setNumber(curveAngle);",
+                "  let baseX = vx * speed;",
+                "  let baseY = vy * speed;",
+                "  let curveX = Math.cos(curveAngle) * speed * 0.5;",
+                "  let curveY = Math.sin(curveAngle) * speed * 0.5;",
+                "  cat.flipX(baseX + curveX < 0);",
+                "  cat.setX(cat.getX() + baseX + curveX);",
+                "  cat.setY(cat.getY() + baseY + curveY);",
+                "} else {",
+                "  curveAngle += 0.05;",
+                "  vars.get(\"curveAngle\").setNumber(curveAngle);",
+                "  vx += (Math.random() - 0.5) * 0.1;",
+                "  vy += (Math.random() - 0.5) * 0.1;",
+                "  const max = 1.8;",
+                "  vx = Math.max(-max, Math.min(max, vx));",
+                "  vy = Math.max(-max, Math.min(max, vy));",
+                "  vars.get(\"vx\").setNumber(vx);",
+                "  vars.get(\"vy\").setNumber(vy);",
+                "  cat.flipX(vx < 0);",
+                "  cat.setX(cat.getX() + vx * speed);",
+                "  cat.setY(cat.getY() + vy * speed);",
+                "}",
+                "",
+                "// 區域限制",
+                "if (cat.getX() < 100) {",
+                "  vars.get(\"vx\").setNumber(Math.abs(vx) * (Math.random() * 0.5 + 0.8));",
+                "  vars.get(\"targetX\").setNumber(cat.getX() + Math.random() * 300 + 100);",
+                "}",
+                "if (cat.getX() > 1820) {",
+                "  vars.get(\"vx\").setNumber(-Math.abs(vx) * (Math.random() * 0.5 + 0.8));",
+                "  vars.get(\"targetX\").setNumber(cat.getX() - Math.random() * 300 - 100);",
+                "}",
+                "if (cat.getY() < 760) {",
+                "  vars.get(\"vy\").setNumber(Math.abs(vy) * (Math.random() * 0.5 + 0.8));",
+                "  vars.get(\"targetY\").setNumber(cat.getY() + Math.random() * 50 + 20);",
+                "}",
+                "if (cat.getY() > 880) {",
+                "  vars.get(\"vy\").setNumber(-Math.abs(vy) * (Math.random() * 0.5 + 0.8));",
+                "  vars.get(\"targetY\").setNumber(cat.getY() - Math.random() * 50 - 20);",
+                "}",
+                ""
+              ],
+              "parameterObjects": "cat",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "jashn移動方式"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "\"use strict\";",
+                "",
+                "const jashn = runtimeScene.getObjects(\"jashn\")[0];",
+                "if (!jashn) return;",
+                "",
+                "const vars = jashn.getVariables();",
+                "",
+                "// 初始化變數",
+                "if (!vars.has(\"targetX\")) vars.get(\"targetX\").setNumber(jashn.getX());",
+                "if (!vars.has(\"targetY\")) vars.get(\"targetY\").setNumber(jashn.getY());",
+                "if (!vars.has(\"isMoving\")) vars.get(\"isMoving\").setNumber(0);",
+                "",
+                "// 限制邊界（可根據地圖調整）",
+                "const minX = 0;",
+                "const maxX = 1921;",
+                "const minY = 765;",
+                "const maxY = 955;",
+                "",
+                "// 取得目標",
+                "let targetX = vars.get(\"targetX\").getAsNumber();",
+                "let targetY = vars.get(\"targetY\").getAsNumber();",
+                "",
+                "//  滑鼠點擊設定目標（限制區域）",
+                "const isMouseClicked = runtimeScene.getGame().getInputManager().isMouseButtonReleased(0);",
+                "if (isMouseClicked) {",
+                "  const mouseX = runtimeScene.getGame().getInputManager().getMouseX();",
+                "  const mouseY = runtimeScene.getGame().getInputManager().getMouseY();",
+                "",
+                "  // 限制目標位置在允許範圍內",
+                "  targetX = Math.max(minX, Math.min(maxX, mouseX));",
+                "  targetY = Math.max(minY, Math.min(maxY, mouseY));",
+                "",
+                "  vars.get(\"targetX\").setNumber(targetX);",
+                "  vars.get(\"targetY\").setNumber(targetY);",
+                "  vars.get(\"isMoving\").setNumber(1);",
+                "",
+                "  jashn.setAnimationName(\"walk\");",
+                "}",
+                "",
+                "//  正在移動",
+                "if (vars.get(\"isMoving\").getAsNumber() === 1) {",
+                "  //  使用腳底的 point 來當作角色實際座標",
+                "  const jashnFootX = jashn.getPointX(\"foot\");",
+                "  const jashnFootY = jashn.getPointY(\"foot\");",
+                "",
+                "  const dx = targetX - jashnFootX;",
+                "  const dy = targetY - jashnFootY;",
+                "  const distance = Math.sqrt(dx * dx + dy * dy);",
+                "",
+                "  if (distance < 5) {",
+                "    // 對齊目標點",
+                "    const nx = dx / distance || 0;",
+                "    const ny = dy / distance || 0;",
+                "    jashn.setX(jashn.getX() + nx * distance);",
+                "    jashn.setY(jashn.getY() + ny * distance);",
+                "",
+                "    vars.get(\"isMoving\").setNumber(0);",
+                "    jashn.setAnimationName(\"idle\");",
+                "  } else {",
+                "    const speed = 3;",
+                "    const nx = dx / distance;",
+                "    const ny = dy / distance;",
+                "",
+                "    jashn.setX(jashn.getX() + nx * speed);",
+                "    jashn.setY(jashn.getY() + ny * speed);",
+                "",
+                "    jashn.flipX(dx < 0);",
+                "    if (jashn.getAnimationName() !== \"walk\") {",
+                "      jashn.setAnimationName(\"walk\");",
+                "    }",
+                "  }",
+                "} else {",
+                "  if (jashn.getAnimationName() !== \"idle\") {",
+                "    jashn.setAnimationName(\"idle\");",
+                "  }",
+                "}",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "貓任務"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"50\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"30\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"10\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Task2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Task2",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "cat",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Task2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Task2",
+                    "=",
+                    "cat.PointX(\"Point\")",
+                    "=",
+                    "cat.PointY(\"Point\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "cat",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Task2",
+                        "=",
+                        "cat.PointX(\"Point2\")",
+                        "=",
+                        "cat.PointY(\"Point2\")"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "jashn",
+                    "cat",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Task2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    "\"Layer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "任務完成進度條2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    "=",
+                    "cat.PointX(\"Point2\")",
+                    "=",
+                    "cat.PointY(\"Point2\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                      },
+                      "parameters": [
+                        "cat",
+                        "Flippable"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "任務完成進度條2",
+                        "=",
+                        "cat.PointX(\"Point\")",
+                        "=",
+                        "cat.PointY(\"Point\")"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    "Animation",
+                    "=",
+                    "\"bar1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "cat",
+                    "Animation",
+                    "=",
+                    "\"assup\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "cat",
+                    "walk",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    "Animation",
+                    "=",
+                    "\"bar2\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "cat",
+                    "Animation",
+                    "=",
+                    "\"assup\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "cat",
+                    "walk",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    "Animation",
+                    "=",
+                    "\"bar3\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "cat",
+                    "Animation",
+                    "=",
+                    "\"assup\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "cat",
+                    "walk",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    "Animation",
+                    "=",
+                    "\"bar4\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "cat",
+                    "Animation",
+                    "=",
+                    "\"assup\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "cat",
+                    "walk",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    "Animation",
+                    "=",
+                    "\"bar5\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "cat",
+                    "Animation",
+                    "=",
+                    "\"assup\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "進度條",
+                    "+",
+                    "90",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "cat",
+                    "walk",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    ">=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "任務完成進度條2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "任務完成進度條2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "catcount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "cat",
+                    "walk",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "逗貓棒"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"40\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"25\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::Value"
+                      },
+                      "parameters": [
+                        "settime",
+                        "Text",
+                        "=",
+                        "\"15\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Task3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "Task3",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "cat",
+                    "cat_litter",
+                    "500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "jashn",
+                    "cat_litter",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Task3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    "\"Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "cat",
+                    "=",
+                    "cat_litter.PointX(\"play\")",
+                    "=",
+                    "cat_litter.PointY(\"play\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    "Animation",
+                    "=",
+                    "\"bar1\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    "Animation",
+                    "=",
+                    "\"bar2\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    "Animation",
+                    "=",
+                    "\"bar3\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    "Animation",
+                    "=",
+                    "\"bar4\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    "Animation",
+                    "=",
+                    "\"bar5\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "進度條",
+                    "+",
+                    "90",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    ">=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "任務完成進度條3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "任務完成進度條3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "teasercount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "cat_litter",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsPressed"
+              },
+              "parameters": [
+                "退出按鈕",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"關卡選擇\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsPressed"
+              },
+              "parameters": [
+                "下一關按鈕",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"遊戲畫面2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -17284,12 +19759,45 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "scored",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "third",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -17320,10 +19828,6 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
         },
         {
           "name": "Resizable",
@@ -17359,7 +19863,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.31119749424452275,
+        "zoomFactor": 0.6244537826600042,
         "windowMask": false
       },
       "objectsGroups": [
@@ -28522,7 +31026,7 @@
                     "settime",
                     "Text",
                     "=",
-                    "\"55\""
+                    "\"0\""
                   ]
                 }
               ]
@@ -29515,7 +32019,7 @@
               ],
               "parameterObjects": "cat",
               "useStrict": true,
-              "eventsSheetExpanded": false
+              "eventsSheetExpanded": true
             }
           ]
         },
@@ -30308,6 +32812,7 @@
           "comment": "逗貓棒"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -30842,6 +33347,39 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "third",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -30954,7 +33492,7 @@
           "isLocked": false,
           "name": "scored",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
