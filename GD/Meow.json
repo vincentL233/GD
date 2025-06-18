@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "07b4eeda-860c-4d31-bd16-ce0d026bf8a6",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "scaleOuter",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Meow",
@@ -3906,7 +3906,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.604083874998888,
+        "zoomFactor": 0.3111974942445208,
         "windowMask": true
       },
       "objectsGroups": [
@@ -4788,7 +4788,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.604083874998888,
+        "zoomFactor": 0.36732575450588284,
         "windowMask": true
       },
       "objectsGroups": [
@@ -4833,8 +4833,8 @@
           "name": "NewButton",
           "persistentUuid": "6115646a-d018-4f35-8de6-22a31061648e",
           "width": 693,
-          "x": 166,
-          "y": 540,
+          "x": 955,
+          "y": 273,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -4850,25 +4850,9 @@
           "name": "NewButton2",
           "persistentUuid": "2801c7f2-f7b3-4b7a-aba9-288728e9cc63",
           "width": 703,
-          "x": 158,
-          "y": 40,
+          "x": 159,
+          "y": 257,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 48,
-          "height": 424,
-          "layer": "",
-          "name": "NewButton3",
-          "persistentUuid": "cf223e32-874c-483d-83f7-99132735adad",
-          "width": 676,
-          "x": 1127,
-          "y": 564,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5551,7 +5535,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5290357402156889,
+        "zoomFactor": 0.3673257545058856,
         "windowMask": false
       },
       "objectsGroups": [
